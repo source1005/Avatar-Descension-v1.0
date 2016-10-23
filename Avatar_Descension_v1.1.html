@@ -1,0 +1,1713 @@
+<!--Tabbed section from Brian-->
+<input type="radio" name="attr_tab" class="sheet-tab sheet-tab1" value="1" title="First Tab" checked="checked" /> 
+<img src="https://static.wixstatic.com/media/007afd_154ed1303b644acbada2a1a2583b6f76~mv2.png/v1/fill/w_92,h_23,al_c/007afd_154ed1303b644acbada2a1a2583b6f76~mv2.png" 
+alt="game" style="width: 80px; height: 20px;">
+<input type="radio" name="attr_tab" class="sheet-tab sheet-tab2" value="2" title="Second Tab" />
+<img src="https://static.wixstatic.com/media/007afd_db1f2434caac4882aca3b4018cc1b637~mv2.png/v1/fill/w_77,h_23,al_c/007afd_db1f2434caac4882aca3b4018cc1b637~mv2.png"
+alt="main" style="width: 67px; height: 20px;">
+<input type="radio" name="attr_tab" class="sheet-tab sheet-tab3" value="3" title="Third Tab" />
+<img src="https://static.wixstatic.com/media/007afd_4828ab10f24f4ba99b7910715bef0fff~mv2.png/v1/fill/w_75,h_23,al_c/007afd_4828ab10f24f4ba99b7910715bef0fff~mv2.png"
+alt="magic" style="width: 66px; height: 20px;">
+<input type="radio" name="attr_tab" class="sheet-tab sheet-tab4" value="4" title="Fourth Tab" />
+<img src="https://static.wixstatic.com/media/007afd_f5b4301fb3cc4b67bd88a6d7b942ff97~mv2.png/v1/fill/w_71,h_23,al_c/007afd_f5b4301fb3cc4b67bd88a6d7b942ff97~mv2.png"
+alt="kiar" style="width: 62px; height: 20px;">
+<input type="radio" name="attr_tab" class="sheet-tab sheet-tab5" value="5" title="Fifth Tab" />
+<img src="https://static.wixstatic.com/media/007afd_c580b73f1ae243d7b21a938b22d1dc85~mv2.png/v1/fill/w_112,h_23,al_c/007afd_c580b73f1ae243d7b21a938b22d1dc85~mv2.png"
+alt="abilities" style="width: 98px; height: 20px;">
+<input type="radio" name="attr_tab" class="sheet-tab sheet-tab6" value="6" title="Sixth Tab" />
+<img src="https://static.wixstatic.com/media/007afd_9cd1c5088269439185672d89853b6d45~mv2.png/v1/fill/w_128,h_23,al_c/007afd_9cd1c5088269439185672d89853b6d45~mv2.png"
+alt="equipment" style="width: 112px; height: 20px;">
+<input type="radio" name="attr_tab" class="sheet-tab sheet-tab7" value="7" title="Seventh Tab" />
+<img src="https://static.wixstatic.com/media/007afd_3c7cbd60e4b045739e008ee62b812ad6~mv2.png/v1/fill/w_96,h_23,al_c/007afd_3c7cbd60e4b045739e008ee62b812ad6~mv2.png"
+alt="realm" style="width: 84px; height: 20px;">
+<input type="radio" name="attr_tab" class="sheet-tab sheet-tab8" value="8" title="Eighth Tab" />
+<img src="https://static.wixstatic.com/media/007afd_24d99e58b638411580f131c4e2737914~mv2.png/v1/fill/w_85,h_23,al_c/007afd_24d99e58b638411580f131c4e2737914~mv2.png"
+alt="history" style="width: 74px; height: 20px;">
+
+<!--First tab Game page-->
+<div class="sheet-tab-content sheet-tab1" style="height: 1800px;">
+    <h1 class="sheet-title32">Game information for quick reference</h1><br>
+    <h2 class="sheet-title24">Player: <input type="text" name="player" class="sheet-field250 sheet-text14">
+    Date: <input type"text" name="date" value=" October 23, 2016" class="sheet-field150 sheet-text14"></h2><br>
+
+<!--key game info table-->
+    <table class="sheet-table1">
+        <tr class="sheet-title20" bgcolor="#808080">
+            <td>Hit Points</td>
+            <td>Current</td>
+            <td>Maximum</td>
+            <td>AC</td>
+            <td>Movement</td>
+            <td>Map move</td>
+            <td>Vision</td>
+        </tr>
+        <tr class="sheet-text14">
+            <td bgcolor="#808080"> </td>
+            <td> <input type="text" name="hp" class="sheet-field50 sheet-text14" value="10 hp"/> </td>
+            <td> <input type="text" name="hpmax" class="sheet-field50 sheet-text14" value="10 HP"/> </td>
+            <td> <input type="text" name="ac" class="sheet-field25 sheet-text14" value="0"/> </td>
+            <td> <input type="text" name="move" class="sheet-field75 sheet-text14" value="5 sqs"/> </td>
+            <td> <input type="text" name="mapmove" class="sheet-field75 sheet-text14" value="5 / 10m"/> </td>
+            <td> <input type="text" name="vision" class="sheet-field75 sheet-text14" value="3/6 sqs"/> </td>
+        </tr>
+    </table><br>
+
+<!--Primary attributes table-->
+    <table class="sheet-table2">
+        <tr class="sheet-title20" bgcolor="#808080">
+            <td colspan="3">Primary Attributes</td>
+        </tr>
+        <tr class="sheet-title16">
+            <td>Attribute</td>
+            <td>Score</td>
+            <td>Modifier</td>
+        </tr>
+        <tr>
+            <td class="sheet-text16">Strength</td>
+            <td class="sheet-text14"><input type="text" name="str" class="sheet-field50 sheet-text14" value="10"/></td>
+            <td class="sheet-text14"><input type="text" name="strmod" class="sheet-field50 sheet-text14" value="+ 0"/></td>
+        </tr>
+        <tr>
+            <td class="sheet-text16">Dexterity</td> 
+            <td class="sheet-text14"><input type="text" name="dex" class="sheet-field50 sheet-text14" value="10"/></td>
+            <td class="sheet-text14"><input type="text" name="dexmod" class="sheet-field50 sheet-text14" value="+ 0"/></td>
+        </tr>
+        <tr>
+            <td class="sheet-text16">Constitution</td> 
+            <td class="sheet-text14"><input type="text" name="con" class="sheet-field50 sheet-text14" value="10"/></td>
+            <td class="sheet-text14"><input type="text" name="conmod" class="sheet-field50 sheet-text14" value="+ 0"/></td>
+        </tr>
+        <tr>
+            <td class="sheet-text16">Charisma</td> 
+            <td class="sheet-text14"><input type="text" name="chr" class="sheet-field50 sheet-text14" value="10"/></td>
+            <td class="sheet-text14"><input type="text" name="chrmod" class="sheet-field50 sheet-text14" value="+ 0"/></td>
+        </tr>
+        <tr>
+            <td class="sheet-text16">Intelligence</td>
+            <td class="sheet-text14"><input type="text" name="iq" class="sheet-field50 sheet-text14" value="10"/></td>
+            <td class="sheet-text14"><input type="text" name="iqmod" class="sheet-field50 sheet-text14" value="+ 0"/></td>
+        </tr>
+        <tr>
+            <td class="sheet-text16">Willpower</td> 
+            <td class="sheet-text14"><input type="text" name="will" class="sheet-field50 sheet-text14" value="10"/></td>
+            <td class="sheet-text14"><input type="text" name="willmod" class="sheet-field50 sheet-text14" value="+ 0"/></td>
+        </tr>
+        <tr>
+            <td class="sheet-text16">Wisdom</td> 
+            <td class="sheet-text14"><input type="text" name="wis" class="sheet-field50 sheet-text14" value="10"/></td>
+            <td class="sheet-text14"><input type="text" name="wismod" class="sheet-field50 sheet-text14" value="+ 0"/></td>
+        </tr>
+        <tr>
+            <td bgcolor="#808080"></td>
+            <td class="sheet-title16">Score</td>
+            <td class="sheet-title16">Ki'ar</td>
+        </tr>
+        <tr>
+            <td class="sheet-text16">Life Force</td>
+            <td class="sheet-text14"><input type="text" name="lf" class="sheet-field25 sheet-text14" value="1"/></td>
+            <td class="sheet-text14">
+            <select name="kiar" class="sheet-field75 sheet-text14">
+            <option>Yes</option>
+            <option selected="selected">No</option>
+            <option>Wild</option>
+            </select></td>
+        </tr>
+    </table>
+
+<!--Secondary attributes table-->
+    <table class="sheet-table3">
+        <tr class="sheet-title20" bgcolor="#808080">
+            <th colspan="2">Secondary Attributes</th>
+        </tr>
+        <tr class="sheet-title16">
+            <td>Attribute</td>
+            <td>Score</td>
+        </tr>
+        <tr>
+            <td class="sheet-text16">Magic level</td>
+            <td class="sheet-text14"><input type="text" name="ml" class="sheet-field50 sheet-text14" value="None"/></td>
+        </tr>
+        <tr>
+            <td class="sheet-text16">Mana</td>
+            <td class="sheet-text14"><input type="text" name="mana" class="sheet-field50 sheet-text14" value="None"/></td>
+        </tr>
+        <tr>
+            <td class="sheet-text16">Ki level</td>
+            <td class="sheet-text14"><input type="text" name="kl" class="sheet-field50 sheet-text14" value="None"/></td>
+        </tr>
+        <tr>
+            <td class="sheet-text16">Ki</td>
+            <td class="sheet-text14"><input type="text" name="ki" class="sheet-field50 sheet-text14" value="None"/></td>
+        </tr>
+        <tr>
+            <td class="sheet-text16">Luck</td>
+            <td class="sheet-text14"><input type="text" name="luck" class="sheet-field50 sheet-text14" value="??"/></td>
+        </tr>
+        <tr>
+            <td class="sheet-text16">Grace</td>
+            <td class="sheet-text14"><input type="text" name="grace" class="sheet-field50 sheet-text14" value="??"/></td>
+        </tr>
+    </table>
+
+<!--Combat attributes table-->
+    <table class="sheet-table4">
+        <tr class="sheet-title20" bgcolor="#808080">
+            <th colspan="2">Combat Attributes</th>
+        </tr>
+        <tr class="sheet-title16">
+            <td>Attribute</td>
+            <td>Score</td>
+        </tr>
+        <tr>
+            <td class="sheet-text16">Initiative</td>
+            <td class="sheet-text14"><input type="text" name="init" class="sheet-field50 sheet-text14" value="+ 0"/></td>
+        </tr>
+        <tr>
+            <td class="sheet-text16">Attack</td>
+            <td class="sheet-text14"><input type="text" name="att" class="sheet-field50 sheet-text14" value="+ 0"/></td>
+        </tr>
+        <tr>
+            <td class="sheet-text16">Defence</td>
+            <td class="sheet-text14"><input type="text" name="def" class="sheet-field50 sheet-text14" value="+ 0"/></td>
+        </tr>
+        <tr>
+            <td class="sheet-text16">Damage</td>
+            <td class="sheet-text14"><input type="text" name="dmg" class="sheet-field50 sheet-text14" value="+ 0"/></td>
+        </tr>
+        <tr>
+            <td class="sheet-text16">Range</td>
+            <td class="sheet-text14"><input type="text" name="rang" class="sheet-field50 sheet-text14" value="+ 0"/></td>
+        </tr>
+    </table>
+    
+<!--Saving rolls table-->
+    <table class="sheet-table5">
+        <tr class="sheet-title20" bgcolor="#808080">
+            <th colspan="5">Saving Rolls</th>
+            <th colspan="5">Skill saving rolls</th>
+        </tr>
+        <tr class="sheet-title16">
+            <td>Fortitude</td>
+            <td>Death</td>
+            <td>Magic</td>
+            <td>Mental</td>
+            <td>Reflex</td>
+            <td>Detection</td>
+            <td>Reaction</td>
+            <td>L.traps</td>
+            <td>D.traps</td>
+            <td>Locks</td>
+        </tr>
+        <tr>
+            <td class="sheet-text14"><input type="text" name="fort" class="sheet-field50 sheet-text14" value="+ 0"/></td>
+            <td class="sheet-text14"><input type="text" name="death" class="sheet-field50 sheet-text14" value="+ 0"/></td>
+            <td class="sheet-text14"><input type="text" name="magic" class="sheet-field50 sheet-text14" value="+ 0"/></td>
+            <td class="sheet-text14"><input type="text" name="mental" class="sheet-field50 sheet-text14" value="+ 0"/></td>
+            <td class="sheet-text14"><input type="text" name="reflex" class="sheet-field50 sheet-text14" value="+ 0"/></td>
+            <td class="sheet-text14"><input type="text" name="detect" class="sheet-field50 sheet-text14" value="+ 0"/></td>
+            <td class="sheet-text14"><input type="text" name="react" class="sheet-field50 sheet-text14" value="+ 0"/></td>
+            <td class="sheet-text14"><input type="text" name="ltraps" class="sheet-field50 sheet-text14" value="+ 0"/></td>
+            <td class="sheet-text14"><input type="text" name="dtraps" class="sheet-field50 sheet-text14" value="+ 0"/></td>
+            <td class="sheet-text14"><input type="text" name="locks" class="sheet-field50 sheet-text14" value="+ 0"/></td>
+        </tr>
+    </table>
+<!--Weapons&Armour table-->  
+    <table class="sheet-table6">
+        <tr class="sheet-title20" bgcolor="#808080">
+            <th colspan="8">Weapons & Armour</th>
+        </tr>
+        <tr class="sheet-title16">
+            <td>Weapon</td>
+            <td colspan="2">Name</td>
+            <td>Damage</td>
+            <td>Shots</td>
+            <td>Range</td>
+            <td>Total dmg</td>
+            <td>Weight</td>
+        </tr>
+        <tr>
+            <td class="sheet-text16">Primary</td>
+            <td colspan="2" class="sheet-text14"><input type="text" name="pwwpn" class="sheet-field150 sheet-text14" value="name"/></td>
+            <td class="sheet-text14"><input type="text" name="pwdmg" class="sheet-field75 sheet-text14" value="0 + 00"/></td>
+            <td bgcolor="#808080"></td>
+            <td bgcolor="#808080"></td>
+            <td class="sheet-text14"><input type="text" name="pwtdmg" class="sheet-field75 sheet-text14" value="0 + 00"/></td>
+            <td class="sheet-text14"><input type="text" name="pwwgt" class="sheet-field75 sheet-text14" value="000 u"/></td>
+        </tr>
+        <tr>
+            <td class="sheet-text16">Secondary</td>
+            <td colspan="2"class="sheet-text14"><input type="text" name="swwpn" class="sheet-field150 sheet-text14" value="name"/></td>
+            <td class="sheet-text14"><input type="text" name="swdmg" class="sheet-field75 sheet-text14" value="0 + 00"/></td>
+            <td bgcolor="#808080"></td>
+            <td bgcolor="#808080"></td>
+            <td class="sheet-text14"><input type="text" name="swtdmg" class="sheet-field75 sheet-text14" value="0 + 00"/></td>
+            <td class="sheet-text14"><input type="text" name="swwgt" class="sheet-field75 sheet-text14" value="000 u"/></td>
+        </tr>
+        <tr>
+            <td class="sheet-text16">Missile</td>
+            <td colspan="2" class="sheet-text14"><input type="text" name="mwwpn" class="sheet-field150 sheet-text14" value="name"/></td>
+            <td class="sheet-text14"><input type="text" name="mwdmg" class="sheet-field75 sheet-text14" value="0 + 00"/></td>
+            <td class="sheet-text14"><input type="text" name="mwshots" class="sheet-field50 sheet-text14" value="00"/></td>
+            <td class="sheet-text14"><input type="text" name="mwrang" class="sheet-field75 sheet-text14" value="00 sqs"/></td>
+            <td class="sheet-text14"><input type="text" name="mwtdmg" class="sheet-field75 sheet-text14" value="0 + 00"/></td>
+            <td class="sheet-text14"><input type="text" name="mwwgt" class="sheet-field75 sheet-text14" value="000 u"/></td>
+        </tr>
+        <tr>
+            <td class="sheet-text16">Thrown</td>
+            <td colspan="2" class="sheet-text14"><input type="text" name="twwpn" class="sheet-field150 sheet-text14" value="name"/></td>
+            <td class="sheet-text14"><input type="text" name="twdmg" class="sheet-field75 sheet-text14" value="0 + 00"/></td>
+            <td class="sheet-text14"><input type="text" name="twshots" class="sheet-field50 sheet-text14" value="00"/></td>
+            <td class="sheet-text14"><input type="text" name="twrang" class="sheet-field75 sheet-text14" value="00 sqs"/></td>
+            <td class="sheet-text14"><input type="text" name="twtdmg" class="sheet-field75 sheet-text14" value="0 + 00"/></td>
+            <td class="sheet-text14"><input type="text" name="twwgt" class="sheet-field75 sheet-text14" value="000 u"/></td>
+        </tr>
+        <tr>
+            <td class="sheet-text16">Extra</td>
+            <td colspan="2" class="sheet-text14"><input type="text" name="ewwpn" class="sheet-field150 sheet-text14" value="name"/></td>
+            <td class="sheet-text14"><input type="text" name="ewdmg" class="sheet-field75 sheet-text14" value="0 + 00"/></td>
+            <td class="sheet-text14"><input type="text" name="ewshots" class="sheet-field50 sheet-text14" value="00"/></td>
+            <td class="sheet-text14"><input type="text" name="ewrang" class="sheet-field75 sheet-text14" value="00 sqs"/></td>
+            <td class="sheet-text14"><input type="text" name="ewtdmg" class="sheet-field75 sheet-text14" value="0 + 00"/></td>
+            <td class="sheet-text14"><input type="text" name="ewwgt" class="sheet-field75 sheet-text14" value="000 u"/></td>
+        </tr>
+        <tr class="sheet-title16" bgcolor="#808080">
+            <td colspan="2">Armour</td>
+            <td>Armour AC</td>
+            <td>Armour wgt</td>
+            <td colspan="2">Shield</td>
+            <td>Shield AC</td>
+            <td>Shield wgt</td>
+        </tr>
+        <tr class="sheet-text14">
+            <td colspan="2"><input type="text" name="armour" class="sheet-field150 sheet-text14" value="name"/></td>
+            <td><input type="text" name="armourac" class="sheet-field25 sheet-text14" value="0"/></td>
+            <td><input type="text" name="armourwgt" class="sheet-field75 sheet-text14" value="000 u"/></td>
+            <td colspan="2"><input type="text" name="shield" class="sheet-field150 sheet-text14" value="name"/></td>
+            <td><input type="text" name="shieldac" class="sheet-field25 sheet-text14" value="0"/></td>
+            <td><input type="text" name="shieldwgt" class="sheet-field75 sheet-text14" value="000 u"/></td>
+        </tr>
+    </table><br>
+
+<!--Notes-->
+    <p style="text-align:left; margin-left:7px; font-family:ariel,helvetica,sans-serif; color:black; font-size:16px; font-weight:bold;">Notes:</p>
+    <textarea class="sheet-note50">Game notes</textarea>
+<!--copyright-->
+<p class="sheet-copyright1">Official version <b>Avatar Descension </b>October 23, 2016 * <i>Avatar Descension Association </i>&#169; 2016 Barry Aulis</p>
+</div>
+
+<!--Second tab Main page-->
+<div class="sheet-tab-content sheet-tab2" style="height: 1800px;">
+    <h1 class="sheet-title32">Roll20 Official Character Sheet</h1><br>
+    <h3 class="sheet-title20" style="line-height:175%;">Character: <input type="text" name="char" class="sheet-field300 sheet-text14"> 
+    Race/Sex: <input type="text" name="race" class="sheet-field150 sheet-text14"> 
+    Age: <input type="text" name="age" class="sheet-field50 sheet-text14">
+    </h3>
+    <h3 class="sheet-title20" style="line-height:175%;">Class/Level: <input type="text" name="class" class="sheet-field150 sheet-text14"> 
+    Alignment: <select name="align" class="sheet-field50 sheet-text14">
+        <option>LG</option>
+        <option>CG</option>
+        <option>NG</option>
+        <option>LN</option>
+        <option>N</option>
+        <option>CN</option>
+        <option>NE</option>
+        <option>CE</option>
+        <option>LE</option></select> 
+    Deity: <input type="text" name="deity" value="none" class="sheet-field200 sheet-text14">
+    </h3>
+    <h3 class="sheet-title20" style="line-height:175%;">Home hex: <input type="text" name="hh" value="???/???"class="sheet-field75 sheet-text14">
+    Map move: <input type="text" name="mapmove" value="5 / 10m" class="sheet-field75 sheet-text14">
+    Height: <input type="text" name="hgt" value="5' 10 ins" class="sheet-field75 sheet-text14">
+    Weight: <input type="text" name="wgt" value="150 lbs" class="sheet-field75 sheet-text14">
+    Size: <select name="size" class="sheet-field50 sheet-text14">
+        <option>S</option>
+        <option selected="selected">M</option>
+        <option>L</option></option>
+        </select>
+    </h3>
+    <h3 class="sheet-title20" style="line-height:175%;">
+        Features: <input type="text" name="features" value="Hair / Eyes / Skin / Markings / etc" class="sheet-field700 sheet-text14">
+    </h3>
+    <h3 style="margin-left:103px;" style="line-height:175%;">
+         <input type="text" name="features" class="sheet-field700 sheet-text14">
+    </h3>
+    <h3 class="sheet-title20" style="line-height:175%;">
+        Languages: <input type="text" name="lang" class="sheet-field500 sheet-text14">
+        Vision: <input type="text" name="vision" value="3B / 6D sqs" class="sheet-field100 sheet-text14">
+    </h3>
+
+<!--Primary & Secondary attributes table-->
+    <table class="sheet-table7">
+        <tr class="sheet-title20" bgcolor="#008000">
+            <th colspan="8">Primary Attributes &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Secondary Attributes</th>
+        </tr>
+        <tr class="sheet-title16">
+            <td>Attributes</td><td>Score</td><td>Modifier</td><td>HF</td><td bgcolor="#008000"></td><td>Hit points</td><td>HP/level</td><td>HF</td>
+        </tr>
+        <tr>
+            <td class="sheet-text16">Strength</td>
+            <td class="sheet-text14"><input type="text" name="str" class="sheet-field50 sheet-text14" value="10"/></td>
+            <td class="sheet-text14"><input type="text" name="strmod" class="sheet-field50 sheet-text14" value="+ 0"/></td>
+            <td class="sheet-text14"><input type="text" name="strhf" class="sheet-field50 sheet-text14" value="+ 0"/></td>
+            <td bgcolor="#008000"></td>
+            <td class="sheet-text14"><input type="text" name="hp" class="sheet-field50 sheet-text14" value="10"/></td>
+            <td class="sheet-text14"><input type="text" name="hplevel" class="sheet-field50 sheet-text14" value="+ 5"/></td>
+            <td class="sheet-text14"><input type="text" name="hphf" class="sheet-field50 sheet-text14" value="+ 0"/></td>
+        </tr>
+        <tr>
+           <td class="sheet-text16">Dexterity</td>
+           <td class="sheet-text14"><input type="text" name="dex" class="sheet-field50 sheet-text14" value="10"/></td>
+           <td class="sheet-text14"><input type="text" name="dexmod" class="sheet-field50 sheet-text14" value="+ 0"/></td>
+           <td class="sheet-text14"><input type="text" name="dexhf" class="sheet-field50 sheet-text14" value="+ 0"/></td>
+           <td bgcolor="#008000"></td>
+           <td class="sheet-text16">Movement</td>
+           <td class="sheet-text16">+1 move</td>
+           <td bgcolor="#008000"></td>
+        </tr>
+        <tr>
+          <td class="sheet-text16">Constitution</td>
+          <td class="sheet-text14"><input type="text" name="con" class="sheet-field50 sheet-text14" value="10"/></td>
+          <td class="sheet-text14"><input type="text" name="conmod" class="sheet-field50 sheet-text14" value="+ 0"/></td>
+          <td class="sheet-text14"><input type="text" name="conhf" class="sheet-field50 sheet-text14" value="+ 0"/></td>
+          <td bgcolor="#008000"></td>
+          <td class="sheet-text14"><input type="text" name="move" class="sheet-field75 sheet-text14" value=" 5 sqs"/></td>
+          <td class="sheet-text14"><input type="text" name="movelevel" class="sheet-field75 sheet-text14" value="every 2nd"/></td>
+          <td bgcolor="#008000"></td>
+        </tr>
+        <tr>
+           <td class="sheet-text16">Charisma</td>
+           <td class="sheet-text14"><input type="text" name="chr" class="sheet-field50 sheet-text14" value="10"/></td>
+           <td class="sheet-text14"><input type="text" name="chrmod" class="sheet-field50 sheet-text14" value="+ 0"/></td>
+           <td class="sheet-text14"><input type="text" name="chrhf" class="sheet-field50 sheet-text14" value="+ 0"/></td>
+           <td bgcolor="#008000"></td>
+           <td class="sheet-text16">Luck</td>
+           <td class="sheet-text16">Luck/level</td>
+           <td bgcolor="#008000"></td>
+        </tr>
+        <tr>
+            <td class="sheet-text16">Intelligence</td>
+            <td class="sheet-text14"><input type="text" name="iq" class="sheet-field50 sheet-text14" value="10"/></td>
+            <td class="sheet-text14"><input type="text" name="iqmod" class="sheet-field50 sheet-text14" value="+ 0"/></td>
+            <td class="sheet-text14"><input type="text" name="iqhf" class="sheet-field50 sheet-text14" value="+ 0"/></td>
+            <td bgcolor="#008000"></td>
+            <td class="sheet-text14"><input type="text" name="luck" class="sheet-field50 sheet-text14" value="??"/></td>
+            <td class="sheet-text14"><input type="text" name="lucklevel" class="sheet-field50 sheet-text14" value="+ ?"/></td>
+            <td bgcolor="#008000"></td>
+        </tr>
+        <tr>
+            <td class="sheet-text16">Willpower</td>
+            <td class="sheet-text14"><input type="text" name="will" class="sheet-field50 sheet-text14" value="10"/></td>
+            <td class="sheet-text14"><input type="text" name="willmod" class="sheet-field50 sheet-text14" value="+ 0"/></td>
+            <td class="sheet-text14"><input type="text" name="willhf" class="sheet-field50 sheet-text14" value="+ 0"/></td>
+            <td bgcolor="#008000"></td>
+            <td class="sheet-text16">Grace</td>
+            <td class="sheet-text16">Grace/level</td>
+            <td bgcolor="#008000"></td>
+        </tr>
+        <tr>
+           <td class="sheet-text16">Wisdom</td>
+           <td class="sheet-text14"><input type="text" name="wis" class="sheet-field50 sheet-text14" value="10"/></td>
+           <td class="sheet-text14"><input type="text" name="wismod" class="sheet-field50 sheet-text14" value="+ 0"/></td>
+           <td class="sheet-text14"><input type="text" name="wishf" class="sheet-field50 sheet-text14" value="+ 0"/></td>
+           <td bgcolor="#008000"></td>
+           <td class="sheet-text14"><input type="text" name="grace" class="sheet-field50 sheet-text14" value="??"/></td>
+           <td class="sheet-text14"><input type="text" name="gracelevel" class="sheet-field50 sheet-text14" value="+ ?"/></td>
+           <td bgcolor="#008000"></td>
+        </tr>
+        <tr>
+          <td bgcolor="#008000"></td>
+          <td class="sheet-title16">Score</td>
+          <td class="sheet-title16">Ki'ar</td>
+          <td bgcolor="#008000"></td><td bgcolor="#008000"></td><td bgcolor="#008000"></td><td bgcolor="#008000"></td><td bgcolor="#008000"></td>
+        </tr>
+        <tr>
+          <td class="sheet-text16">Life Force</td>
+          <td class="sheet-text14"><input type="text" name="lf" class="sheet-field50 sheet-text14" value="1"/></td>
+          <td class="sheet-text14">
+            <select name="kiar" class="sheet-field75 sheet-text14">
+            <option>Yes</option>
+            <option selected="selected">No</option>
+            <option>Wild</option>
+            </select></td>
+          <td bgcolor="#008000"></td><td bgcolor="#008000"></td><td bgcolor="#008000"></td><td bgcolor="#008000"></td><td bgcolor="#008000"></td>
+        </tr>
+    </table>
+
+<!--Saving rolls table-->
+    <table class="sheet-table8">
+        <tr class="sheet-title20l" bgcolor="#008000">
+            <th colspan="7">&emsp;&emsp; Resistence &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Saving Rolls</th>
+        </tr>
+        <tr class="sheet-title16">
+            <td colspan="2">Score</td><td>Fortitude</td><td>Death</td><td>Magic</td><td>Mental</td><td>Reflex</td>
+        </tr>
+        <tr>
+          <td colspan="2" class="sheet-text14"><input type="text" name="res" class="sheet-field50 sheet-text14" value="10"/></td> 
+          <td class="sheet-text14"><input type="text" name="fort" class="sheet-field50 sheet-text14" value="+ 0"/></td>
+          <td class="sheet-text14"><input type="text" name="death" class="sheet-field50 sheet-text14" value="+ 0"/></td>
+          <td class="sheet-text14"><input type="text" name="magic" class="sheet-field50 sheet-text14" value="+ 0"/></td>
+          <td class="sheet-text14"><input type="text" name="mental" class="sheet-field50 sheet-text14" value="+ 0"/></td>
+          <td class="sheet-text14"><input type="text" name="reflex" class="sheet-field50 sheet-text14" value="+ 0"/></td>
+        </tr>
+        <tr>
+            <td colspan="2" class="sheet-title16">HF</td><td colspan="5" class="sheet-title20" bgcolor="#008000">Skill saving rolls</td>
+        </tr>
+        <tr>
+            <td colspan="2" class="sheet-text14"><input type="text" name="reshf" class="sheet-field50 sheet-text14" value="+ 0"/></td>
+            <td class="sheet-title16">Detection</td><td class="sheet-title16">Reaction</td><td class="sheet-title16">L.traps</td>
+            <td class="sheet-title16">D.traps</td><td class="sheet-title16">Locks</td>
+        </tr>
+        <tr class="sheet-text14">
+            <td colspan="2" bgcolor="#008000"></td>
+            <td><input type="text" name="detect" class="sheet-field50 sheet-text14" value="+ 0"/></td>
+            <td><input type="text" name="react" class="sheet-field50 sheet-text14" value="+ 0"/></td>
+            <td><input type="text" name="ltraps" class="sheet-field50 sheet-text14" value="+ 0"/></td>
+            <td><input type="text" name="dtraps" class="sheet-field50 sheet-text14" value="+ 0"/></td>
+            <td><input type="text" name="locks" class="sheet-field50 sheet-text14" value="+ 0"/></td>
+        </tr>
+    </table><br>
+
+<!--Notes-->
+<p style="text-align:left; margin-left:7px; font-family:ariel,helvetica,sans-serif; color:black; font-size:16px; font-weight:bold;">Notes:</p>
+<textarea class="sheet-note50">Character notes</textarea>
+<!--copyright-->
+<p class="sheet-copyright2">Official version <b>Avatar Descension </b>October 23, 2016 * <i>Avatar Descension Association </i>&#169; 2016 Barry Aulis</p>
+</div>
+
+<!--Third tab Magic page-->
+<div class="sheet-tab-content sheet-tab3" style="height: 1800px;">
+    <h1 class="sheet-title32">Magic Page</h1><br>
+    
+<!--Magic-user table-->
+    <table class="sheet-table9">
+        <tr class="sheet-title20">
+            <th colspan="6" bgcolor="#0000ff">Magic-user</th>
+        </tr>
+        <tr class="sheet-title16">
+            <td>Mage/Specialist</td><td>Magic level</td><td>Mana</td><td>Mana/level</td><td>HF</td><td>Regeneration</td>
+        </tr>
+        <tr>
+            <td class="sheet-text14"><input type="text" name="mage" class="sheet-field100 sheet-text14" value="Mage"/></td>
+            <td class="sheet-text14"><input type="text" name="ml" class="sheet-field50 sheet-text14" value="none"/></td>
+            <td class="sheet-text14"><input type="text" name="mana" class="sheet-field50 sheet-text14" value="none"/></td>
+            <td class="sheet-text14"><input type="text" name="manalevel" class="sheet-field50 sheet-text14" value="+ 0"/></td>
+            <td class="sheet-text14"><input type="text" name="manahf" class="sheet-field50 sheet-text14" value="+ 0"/></td>
+            <td class="sheet-text14"><input type="text" name="mregen" class="sheet-field50 sheet-text14" value="0"/></td>
+        </tr>
+    </table>
+
+<!--Spheres table-->
+    <table class="sheet-table10">
+        <tr>
+            <td class="sheet-title20" bgcolor="#0000ff">Spheres</td>
+            <td class="sheet-text14"><input type="text" name="sph1" class="sheet-field100 sheet-text14" value="One"/></td>
+            <td class="sheet-text14"><input type="text" name="sph2" class="sheet-field100 sheet-text14" value="Two"/></td>
+            <td class="sheet-text14"><input type="text" name="sph3" class="sheet-field100 sheet-text14" value="Three"/></td>
+        </tr>
+        <tr>
+            <td class="sheet-text14"><input type="text" name="sph4" class="sheet-field100 sheet-text14" value="Four"/></td>
+            <td class="sheet-text14"><input type="text" name="sph5" class="sheet-field100 sheet-text14" value="Five"/></td>
+            <td class="sheet-text14"><input type="text" name="sph6" class="sheet-field100 sheet-text14" value="Six"/></td>
+            <td class="sheet-text14"><input type="text" name="sph7" class="sheet-field100 sheet-text14" value="Seven"/></td>
+        </tr>
+        <tr class="sheet-title16">
+            <td>Spell points</td><td>Spell pts/level</td><td>Known spells</td><td>Book spells</td>
+        </tr>
+        <tr>
+            <td class="sheet-text14"><input type="text" name="spts" class="sheet-field50 sheet-text14" value="0"/></td>
+            <td class="sheet-text14"><input type="text" name="sptslevel" class="sheet-field50 sheet-text14" value="+ 0"/></td>
+            <td class="sheet-text14"><input type="text" name="kwnsp" class="sheet-field75 sheet-text14" value="0"/></td>
+            <td class="sheet-text14"><input type="text" name="booksp" class="sheet-field75 sheet-text14" value="0"/></td>
+        </tr>
+    </table>
+
+<!--Spell book table-->
+    <table class="sheet-table11">
+        <tr class="sheet-title20" bgcolor="#0000ff">
+            <th colspan="33">Book of Spells</th>
+        </tr>
+        <tr class="sheet-title16">
+            <td colspan="2">Level</td>
+            <td colspan="7">Spell</td>
+            <td colspan="5">Sphere</td>
+            <td colspan="2">Mana</td>
+            <td colspan="4">Range</td>
+            <td colspan="4">Duration</td>
+            <td colspan="7">Area of effect</td>
+            <td colspan="2">SR</td>
+        </tr>
+        <tr>
+          <td colspan="2" class="sheet-text12"><input type="text" name="sl1" class="sheet-field25 sheet-text12"/></td>
+          <td colspan="7" class="sheet-text12"><input type="text" name="sp1" class="sheet-field150 sheet-text12"/></td>
+          <td colspan="5" class="sheet-text12"><input type="text" name="spsph1" class="sheet-field100 sheet-text12"/></td>
+          <td colspan="2" class="sheet-text12"><input type="text" name="spmana1" class="sheet-field25 sheet-text12"/></td>
+          <td colspan="4" class="sheet-text12"><input type="text" name="spr1" class="sheet-field75 sheet-text12"/></td>
+          <td colspan="4" class="sheet-text12"><input type="text" name="spd1" class="sheet-field75 sheet-text12"/></td>
+          <td colspan="7" class="sheet-text12"><input type="text" name="spaoe1" class="sheet-field150 sheet-text12"/></td>
+          <td colspan="2" class="sheet-text12"><input type="text" name="spsr1" class="sheet-field25 sheet-text12" value="Y"/></td>
+        </tr>
+        <tr>
+          <td colspan="2" class="sheet-text12"><input type="text" name="sl1" class="sheet-field25 sheet-text12"/></td>
+          <td colspan="7" class="sheet-text12"><input type="text" name="sp1" class="sheet-field150 sheet-text12"/></td>
+          <td colspan="5" class="sheet-text12"><input type="text" name="spsph1" class="sheet-field100 sheet-text12"/></td>
+          <td colspan="2" class="sheet-text12"><input type="text" name="spmana1" class="sheet-field25 sheet-text12"/></td>
+          <td colspan="4" class="sheet-text12"><input type="text" name="spr1" class="sheet-field75 sheet-text12"/></td>
+          <td colspan="4" class="sheet-text12"><input type="text" name="spd1" class="sheet-field75 sheet-text12"/></td>
+          <td colspan="7" class="sheet-text12"><input type="text" name="spaoe1" class="sheet-field150 sheet-text12"/></td>
+          <td colspan="2" class="sheet-text12"><input type="text" name="spsr1" class="sheet-field25 sheet-text12" value="Y"/></td>
+        </tr>
+        <tr>
+          <td colspan="2" class="sheet-text12"><input type="text" name="sl1" class="sheet-field25 sheet-text12"/></td>
+          <td colspan="7" class="sheet-text12"><input type="text" name="sp1" class="sheet-field150 sheet-text12"/></td>
+          <td colspan="5" class="sheet-text12"><input type="text" name="spsph1" class="sheet-field100 sheet-text12"/></td>
+          <td colspan="2" class="sheet-text12"><input type="text" name="spmana1" class="sheet-field25 sheet-text12"/></td>
+          <td colspan="4" class="sheet-text12"><input type="text" name="spr1" class="sheet-field75 sheet-text12"/></td>
+          <td colspan="4" class="sheet-text12"><input type="text" name="spd1" class="sheet-field75 sheet-text12"/></td>
+          <td colspan="7" class="sheet-text12"><input type="text" name="spaoe1" class="sheet-field150 sheet-text12"/></td>
+          <td colspan="2" class="sheet-text12"><input type="text" name="spsr1" class="sheet-field25 sheet-text12" value="Y"/></td>
+        </tr>
+        <tr>
+          <td colspan="2" class="sheet-text12"><input type="text" name="sl1" class="sheet-field25 sheet-text12"/></td>
+          <td colspan="7" class="sheet-text12"><input type="text" name="sp1" class="sheet-field150 sheet-text12"/></td>
+          <td colspan="5" class="sheet-text12"><input type="text" name="spsph1" class="sheet-field100 sheet-text12"/></td>
+          <td colspan="2" class="sheet-text12"><input type="text" name="spmana1" class="sheet-field25 sheet-text12"/></td>
+          <td colspan="4" class="sheet-text12"><input type="text" name="spr1" class="sheet-field75 sheet-text12"/></td>
+          <td colspan="4" class="sheet-text12"><input type="text" name="spd1" class="sheet-field75 sheet-text12"/></td>
+          <td colspan="7" class="sheet-text12"><input type="text" name="spaoe1" class="sheet-field150 sheet-text12"/></td>
+          <td colspan="2" class="sheet-text12"><input type="text" name="spsr1" class="sheet-field25 sheet-text12" value="Y"/></td>
+        </tr>
+        <tr>
+          <td colspan="2" class="sheet-text12"><input type="text" name="sl1" class="sheet-field25 sheet-text12"/></td>
+          <td colspan="7" class="sheet-text12"><input type="text" name="sp1" class="sheet-field150 sheet-text12"/></td>
+          <td colspan="5" class="sheet-text12"><input type="text" name="spsph1" class="sheet-field100 sheet-text12"/></td>
+          <td colspan="2" class="sheet-text12"><input type="text" name="spmana1" class="sheet-field25 sheet-text12"/></td>
+          <td colspan="4" class="sheet-text12"><input type="text" name="spr1" class="sheet-field75 sheet-text12"/></td>
+          <td colspan="4" class="sheet-text12"><input type="text" name="spd1" class="sheet-field75 sheet-text12"/></td>
+          <td colspan="7" class="sheet-text12"><input type="text" name="spaoe1" class="sheet-field150 sheet-text12"/></td>
+          <td colspan="2" class="sheet-text12"><input type="text" name="spsr1" class="sheet-field25 sheet-text12" value="Y"/></td>
+        </tr>
+        <tr>
+          <td colspan="2" class="sheet-text12"><input type="text" name="sl1" class="sheet-field25 sheet-text12"/></td>
+          <td colspan="7" class="sheet-text12"><input type="text" name="sp1" class="sheet-field150 sheet-text12"/></td>
+          <td colspan="5" class="sheet-text12"><input type="text" name="spsph1" class="sheet-field100 sheet-text12"/></td>
+          <td colspan="2" class="sheet-text12"><input type="text" name="spmana1" class="sheet-field25 sheet-text12"/></td>
+          <td colspan="4" class="sheet-text12"><input type="text" name="spr1" class="sheet-field75 sheet-text12"/></td>
+          <td colspan="4" class="sheet-text12"><input type="text" name="spd1" class="sheet-field75 sheet-text12"/></td>
+          <td colspan="7" class="sheet-text12"><input type="text" name="spaoe1" class="sheet-field150 sheet-text12"/></td>
+          <td colspan="2" class="sheet-text12"><input type="text" name="spsr1" class="sheet-field25 sheet-text12" value="Y"/></td>
+        </tr>
+        <tr>
+          <td colspan="2" class="sheet-text12"><input type="text" name="sl1" class="sheet-field25 sheet-text12"/></td>
+          <td colspan="7" class="sheet-text12"><input type="text" name="sp1" class="sheet-field150 sheet-text12"/></td>
+          <td colspan="5" class="sheet-text12"><input type="text" name="spsph1" class="sheet-field100 sheet-text12"/></td>
+          <td colspan="2" class="sheet-text12"><input type="text" name="spmana1" class="sheet-field25 sheet-text12"/></td>
+          <td colspan="4" class="sheet-text12"><input type="text" name="spr1" class="sheet-field75 sheet-text12"/></td>
+          <td colspan="4" class="sheet-text12"><input type="text" name="spd1" class="sheet-field75 sheet-text12"/></td>
+          <td colspan="7" class="sheet-text12"><input type="text" name="spaoe1" class="sheet-field150 sheet-text12"/></td>
+          <td colspan="2" class="sheet-text12"><input type="text" name="spsr1" class="sheet-field25 sheet-text12" value="Y"/></td>
+        </tr>
+        <tr>
+          <td colspan="2" class="sheet-text12"><input type="text" name="sl1" class="sheet-field25 sheet-text12"/></td>
+          <td colspan="7" class="sheet-text12"><input type="text" name="sp1" class="sheet-field150 sheet-text12"/></td>
+          <td colspan="5" class="sheet-text12"><input type="text" name="spsph1" class="sheet-field100 sheet-text12"/></td>
+          <td colspan="2" class="sheet-text12"><input type="text" name="spmana1" class="sheet-field25 sheet-text12"/></td>
+          <td colspan="4" class="sheet-text12"><input type="text" name="spr1" class="sheet-field75 sheet-text12"/></td>
+          <td colspan="4" class="sheet-text12"><input type="text" name="spd1" class="sheet-field75 sheet-text12"/></td>
+          <td colspan="7" class="sheet-text12"><input type="text" name="spaoe1" class="sheet-field150 sheet-text12"/></td>
+          <td colspan="2" class="sheet-text12"><input type="text" name="spsr1" class="sheet-field25 sheet-text12" value="Y"/></td>
+        </tr>
+        <tr>
+          <td colspan="2" class="sheet-text12"><input type="text" name="sl1" class="sheet-field25 sheet-text12"/></td>
+          <td colspan="7" class="sheet-text12"><input type="text" name="sp1" class="sheet-field150 sheet-text12"/></td>
+          <td colspan="5" class="sheet-text12"><input type="text" name="spsph1" class="sheet-field100 sheet-text12"/></td>
+          <td colspan="2" class="sheet-text12"><input type="text" name="spmana1" class="sheet-field25 sheet-text12"/></td>
+          <td colspan="4" class="sheet-text12"><input type="text" name="spr1" class="sheet-field75 sheet-text12"/></td>
+          <td colspan="4" class="sheet-text12"><input type="text" name="spd1" class="sheet-field75 sheet-text12"/></td>
+          <td colspan="7" class="sheet-text12"><input type="text" name="spaoe1" class="sheet-field150 sheet-text12"/></td>
+          <td colspan="2" class="sheet-text12"><input type="text" name="spsr1" class="sheet-field25 sheet-text12" value="Y"/></td>
+        </tr>
+        <tr>
+          <td colspan="2" class="sheet-text12"><input type="text" name="sl1" class="sheet-field25 sheet-text12"/></td>
+          <td colspan="7" class="sheet-text12"><input type="text" name="sp1" class="sheet-field150 sheet-text12"/></td>
+          <td colspan="5" class="sheet-text12"><input type="text" name="spsph1" class="sheet-field100 sheet-text12"/></td>
+          <td colspan="2" class="sheet-text12"><input type="text" name="spmana1" class="sheet-field25 sheet-text12"/></td>
+          <td colspan="4" class="sheet-text12"><input type="text" name="spr1" class="sheet-field75 sheet-text12"/></td>
+          <td colspan="4" class="sheet-text12"><input type="text" name="spd1" class="sheet-field75 sheet-text12"/></td>
+          <td colspan="7" class="sheet-text12"><input type="text" name="spaoe1" class="sheet-field150 sheet-text12"/></td>
+          <td colspan="2" class="sheet-text12"><input type="text" name="spsr1" class="sheet-field25 sheet-text12" value="Y"/></td>
+        </tr>
+        <tr>
+          <td colspan="2" class="sheet-text12"><input type="text" name="sl1" class="sheet-field25 sheet-text12"/></td>
+          <td colspan="7" class="sheet-text12"><input type="text" name="sp1" class="sheet-field150 sheet-text12"/></td>
+          <td colspan="5" class="sheet-text12"><input type="text" name="spsph1" class="sheet-field100 sheet-text12"/></td>
+          <td colspan="2" class="sheet-text12"><input type="text" name="spmana1" class="sheet-field25 sheet-text12"/></td>
+          <td colspan="4" class="sheet-text12"><input type="text" name="spr1" class="sheet-field75 sheet-text12"/></td>
+          <td colspan="4" class="sheet-text12"><input type="text" name="spd1" class="sheet-field75 sheet-text12"/></td>
+          <td colspan="7" class="sheet-text12"><input type="text" name="spaoe1" class="sheet-field150 sheet-text12"/></td>
+          <td colspan="2" class="sheet-text12"><input type="text" name="spsr1" class="sheet-field25 sheet-text12" value="Y"/></td>
+        </tr>
+        <tr>
+          <td colspan="2" class="sheet-text12"><input type="text" name="sl1" class="sheet-field25 sheet-text12"/></td>
+          <td colspan="7" class="sheet-text12"><input type="text" name="sp1" class="sheet-field150 sheet-text12"/></td>
+          <td colspan="5" class="sheet-text12"><input type="text" name="spsph1" class="sheet-field100 sheet-text12"/></td>
+          <td colspan="2" class="sheet-text12"><input type="text" name="spmana1" class="sheet-field25 sheet-text12"/></td>
+          <td colspan="4" class="sheet-text12"><input type="text" name="spr1" class="sheet-field75 sheet-text12"/></td>
+          <td colspan="4" class="sheet-text12"><input type="text" name="spd1" class="sheet-field75 sheet-text12"/></td>
+          <td colspan="7" class="sheet-text12"><input type="text" name="spaoe1" class="sheet-field150 sheet-text12"/></td>
+          <td colspan="2" class="sheet-text12"><input type="text" name="spsr1" class="sheet-field25 sheet-text12" value="Y"/></td>
+        </tr>
+        <tr>
+          <td colspan="2" class="sheet-text12"><input type="text" name="sl1" class="sheet-field25 sheet-text12"/></td>
+          <td colspan="7" class="sheet-text12"><input type="text" name="sp1" class="sheet-field150 sheet-text12"/></td>
+          <td colspan="5" class="sheet-text12"><input type="text" name="spsph1" class="sheet-field100 sheet-text12"/></td>
+          <td colspan="2" class="sheet-text12"><input type="text" name="spmana1" class="sheet-field25 sheet-text12"/></td>
+          <td colspan="4" class="sheet-text12"><input type="text" name="spr1" class="sheet-field75 sheet-text12"/></td>
+          <td colspan="4" class="sheet-text12"><input type="text" name="spd1" class="sheet-field75 sheet-text12"/></td>
+          <td colspan="7" class="sheet-text12"><input type="text" name="spaoe1" class="sheet-field150 sheet-text12"/></td>
+          <td colspan="2" class="sheet-text12"><input type="text" name="spsr1" class="sheet-field25 sheet-text12" value="Y"/></td>
+        </tr>
+        <tr>
+          <td colspan="2" class="sheet-text12"><input type="text" name="sl1" class="sheet-field25 sheet-text12"/></td>
+          <td colspan="7" class="sheet-text12"><input type="text" name="sp1" class="sheet-field150 sheet-text12"/></td>
+          <td colspan="5" class="sheet-text12"><input type="text" name="spsph1" class="sheet-field100 sheet-text12"/></td>
+          <td colspan="2" class="sheet-text12"><input type="text" name="spmana1" class="sheet-field25 sheet-text12"/></td>
+          <td colspan="4" class="sheet-text12"><input type="text" name="spr1" class="sheet-field75 sheet-text12"/></td>
+          <td colspan="4" class="sheet-text12"><input type="text" name="spd1" class="sheet-field75 sheet-text12"/></td>
+          <td colspan="7" class="sheet-text12"><input type="text" name="spaoe1" class="sheet-field150 sheet-text12"/></td>
+          <td colspan="2" class="sheet-text12"><input type="text" name="spsr1" class="sheet-field25 sheet-text12" value="Y"/></td>
+        </tr>
+        <tr>
+          <td colspan="2" class="sheet-text12"><input type="text" name="sl1" class="sheet-field25 sheet-text12"/></td>
+          <td colspan="7" class="sheet-text12"><input type="text" name="sp1" class="sheet-field150 sheet-text12"/></td>
+          <td colspan="5" class="sheet-text12"><input type="text" name="spsph1" class="sheet-field100 sheet-text12"/></td>
+          <td colspan="2" class="sheet-text12"><input type="text" name="spmana1" class="sheet-field25 sheet-text12"/></td>
+          <td colspan="4" class="sheet-text12"><input type="text" name="spr1" class="sheet-field75 sheet-text12"/></td>
+          <td colspan="4" class="sheet-text12"><input type="text" name="spd1" class="sheet-field75 sheet-text12"/></td>
+          <td colspan="7" class="sheet-text12"><input type="text" name="spaoe1" class="sheet-field150 sheet-text12"/></td>
+          <td colspan="2" class="sheet-text12"><input type="text" name="spsr1" class="sheet-field25 sheet-text12" value="Y"/></td>
+        </tr>
+        <tr>
+          <td colspan="2" class="sheet-text12"><input type="text" name="sl1" class="sheet-field25 sheet-text12"/></td>
+          <td colspan="7" class="sheet-text12"><input type="text" name="sp1" class="sheet-field150 sheet-text12"/></td>
+          <td colspan="5" class="sheet-text12"><input type="text" name="spsph1" class="sheet-field100 sheet-text12"/></td>
+          <td colspan="2" class="sheet-text12"><input type="text" name="spmana1" class="sheet-field25 sheet-text12"/></td>
+          <td colspan="4" class="sheet-text12"><input type="text" name="spr1" class="sheet-field75 sheet-text12"/></td>
+          <td colspan="4" class="sheet-text12"><input type="text" name="spd1" class="sheet-field75 sheet-text12"/></td>
+          <td colspan="7" class="sheet-text12"><input type="text" name="spaoe1" class="sheet-field150 sheet-text12"/></td>
+          <td colspan="2" class="sheet-text12"><input type="text" name="spsr1" class="sheet-field25 sheet-text12" value="Y"/></td>
+        </tr>
+        <tr>
+          <td colspan="2" class="sheet-text12"><input type="text" name="sl1" class="sheet-field25 sheet-text12"/></td>
+          <td colspan="7" class="sheet-text12"><input type="text" name="sp1" class="sheet-field150 sheet-text12"/></td>
+          <td colspan="5" class="sheet-text12"><input type="text" name="spsph1" class="sheet-field100 sheet-text12"/></td>
+          <td colspan="2" class="sheet-text12"><input type="text" name="spmana1" class="sheet-field25 sheet-text12"/></td>
+          <td colspan="4" class="sheet-text12"><input type="text" name="spr1" class="sheet-field75 sheet-text12"/></td>
+          <td colspan="4" class="sheet-text12"><input type="text" name="spd1" class="sheet-field75 sheet-text12"/></td>
+          <td colspan="7" class="sheet-text12"><input type="text" name="spaoe1" class="sheet-field150 sheet-text12"/></td>
+          <td colspan="2" class="sheet-text12"><input type="text" name="spsr1" class="sheet-field25 sheet-text12" value="Y"/></td>
+        </tr>
+        <tr>
+          <td colspan="2" class="sheet-text12"><input type="text" name="sl1" class="sheet-field25 sheet-text12"/></td>
+          <td colspan="7" class="sheet-text12"><input type="text" name="sp1" class="sheet-field150 sheet-text12"/></td>
+          <td colspan="5" class="sheet-text12"><input type="text" name="spsph1" class="sheet-field100 sheet-text12"/></td>
+          <td colspan="2" class="sheet-text12"><input type="text" name="spmana1" class="sheet-field25 sheet-text12"/></td>
+          <td colspan="4" class="sheet-text12"><input type="text" name="spr1" class="sheet-field75 sheet-text12"/></td>
+          <td colspan="4" class="sheet-text12"><input type="text" name="spd1" class="sheet-field75 sheet-text12"/></td>
+          <td colspan="7" class="sheet-text12"><input type="text" name="spaoe1" class="sheet-field150 sheet-text12"/></td>
+          <td colspan="2" class="sheet-text12"><input type="text" name="spsr1" class="sheet-field25 sheet-text12" value="Y"/></td>
+        </tr>
+        <tr>
+          <td colspan="2" class="sheet-text12"><input type="text" name="sl1" class="sheet-field25 sheet-text12"/></td>
+          <td colspan="7" class="sheet-text12"><input type="text" name="sp1" class="sheet-field150 sheet-text12"/></td>
+          <td colspan="5" class="sheet-text12"><input type="text" name="spsph1" class="sheet-field100 sheet-text12"/></td>
+          <td colspan="2" class="sheet-text12"><input type="text" name="spmana1" class="sheet-field25 sheet-text12"/></td>
+          <td colspan="4" class="sheet-text12"><input type="text" name="spr1" class="sheet-field75 sheet-text12"/></td>
+          <td colspan="4" class="sheet-text12"><input type="text" name="spd1" class="sheet-field75 sheet-text12"/></td>
+          <td colspan="7" class="sheet-text12"><input type="text" name="spaoe1" class="sheet-field150 sheet-text12"/></td>
+          <td colspan="2" class="sheet-text12"><input type="text" name="spsr1" class="sheet-field25 sheet-text12" value="Y"/></td>
+        </tr>
+        <tr>
+          <td colspan="2" class="sheet-text12"><input type="text" name="sl1" class="sheet-field25 sheet-text12"/></td>
+          <td colspan="7" class="sheet-text12"><input type="text" name="sp1" class="sheet-field150 sheet-text12"/></td>
+          <td colspan="5" class="sheet-text12"><input type="text" name="spsph1" class="sheet-field100 sheet-text12"/></td>
+          <td colspan="2" class="sheet-text12"><input type="text" name="spmana1" class="sheet-field25 sheet-text12"/></td>
+          <td colspan="4" class="sheet-text12"><input type="text" name="spr1" class="sheet-field75 sheet-text12"/></td>
+          <td colspan="4" class="sheet-text12"><input type="text" name="spd1" class="sheet-field75 sheet-text12"/></td>
+          <td colspan="7" class="sheet-text12"><input type="text" name="spaoe1" class="sheet-field150 sheet-text12"/></td>
+          <td colspan="2" class="sheet-text12"><input type="text" name="spsr1" class="sheet-field25 sheet-text12" value="Y"/></td>
+        </tr>
+        <tr>
+          <td colspan="2" class="sheet-text12"><input type="text" name="sl1" class="sheet-field25 sheet-text12"/></td>
+          <td colspan="7" class="sheet-text12"><input type="text" name="sp1" class="sheet-field150 sheet-text12"/></td>
+          <td colspan="5" class="sheet-text12"><input type="text" name="spsph1" class="sheet-field100 sheet-text12"/></td>
+          <td colspan="2" class="sheet-text12"><input type="text" name="spmana1" class="sheet-field25 sheet-text12"/></td>
+          <td colspan="4" class="sheet-text12"><input type="text" name="spr1" class="sheet-field75 sheet-text12"/></td>
+          <td colspan="4" class="sheet-text12"><input type="text" name="spd1" class="sheet-field75 sheet-text12"/></td>
+          <td colspan="7" class="sheet-text12"><input type="text" name="spaoe1" class="sheet-field150 sheet-text12"/></td>
+          <td colspan="2" class="sheet-text12"><input type="text" name="spsr1" class="sheet-field25 sheet-text12" value="Y"/></td>
+        </tr>
+        <tr>
+          <td colspan="2" class="sheet-text12"><input type="text" name="sl1" class="sheet-field25 sheet-text12"/></td>
+          <td colspan="7" class="sheet-text12"><input type="text" name="sp1" class="sheet-field150 sheet-text12"/></td>
+          <td colspan="5" class="sheet-text12"><input type="text" name="spsph1" class="sheet-field100 sheet-text12"/></td>
+          <td colspan="2" class="sheet-text12"><input type="text" name="spmana1" class="sheet-field25 sheet-text12"/></td>
+          <td colspan="4" class="sheet-text12"><input type="text" name="spr1" class="sheet-field75 sheet-text12"/></td>
+          <td colspan="4" class="sheet-text12"><input type="text" name="spd1" class="sheet-field75 sheet-text12"/></td>
+          <td colspan="7" class="sheet-text12"><input type="text" name="spaoe1" class="sheet-field150 sheet-text12"/></td>
+          <td colspan="2" class="sheet-text12"><input type="text" name="spsr1" class="sheet-field25 sheet-text12" value="Y"/></td>
+        </tr>
+        <tr>
+          <td colspan="2" class="sheet-text12"><input type="text" name="sl1" class="sheet-field25 sheet-text12"/></td>
+          <td colspan="7" class="sheet-text12"><input type="text" name="sp1" class="sheet-field150 sheet-text12"/></td>
+          <td colspan="5" class="sheet-text12"><input type="text" name="spsph1" class="sheet-field100 sheet-text12"/></td>
+          <td colspan="2" class="sheet-text12"><input type="text" name="spmana1" class="sheet-field25 sheet-text12"/></td>
+          <td colspan="4" class="sheet-text12"><input type="text" name="spr1" class="sheet-field75 sheet-text12"/></td>
+          <td colspan="4" class="sheet-text12"><input type="text" name="spd1" class="sheet-field75 sheet-text12"/></td>
+          <td colspan="7" class="sheet-text12"><input type="text" name="spaoe1" class="sheet-field150 sheet-text12"/></td>
+          <td colspan="2" class="sheet-text12"><input type="text" name="spsr1" class="sheet-field25 sheet-text12" value="Y"/></td>
+        </tr>
+        <tr>
+          <td colspan="2" class="sheet-text12"><input type="text" name="sl1" class="sheet-field25 sheet-text12"/></td>
+          <td colspan="7" class="sheet-text12"><input type="text" name="sp1" class="sheet-field150 sheet-text12"/></td>
+          <td colspan="5" class="sheet-text12"><input type="text" name="spsph1" class="sheet-field100 sheet-text12"/></td>
+          <td colspan="2" class="sheet-text12"><input type="text" name="spmana1" class="sheet-field25 sheet-text12"/></td>
+          <td colspan="4" class="sheet-text12"><input type="text" name="spr1" class="sheet-field75 sheet-text12"/></td>
+          <td colspan="4" class="sheet-text12"><input type="text" name="spd1" class="sheet-field75 sheet-text12"/></td>
+          <td colspan="7" class="sheet-text12"><input type="text" name="spaoe1" class="sheet-field150 sheet-text12"/></td>
+          <td colspan="2" class="sheet-text12"><input type="text" name="spsr1" class="sheet-field25 sheet-text12" value="Y"/></td>
+        </tr>
+        <tr>
+          <td colspan="2" class="sheet-text12"><input type="text" name="sl1" class="sheet-field25 sheet-text12"/></td>
+          <td colspan="7" class="sheet-text12"><input type="text" name="sp1" class="sheet-field150 sheet-text12"/></td>
+          <td colspan="5" class="sheet-text12"><input type="text" name="spsph1" class="sheet-field100 sheet-text12"/></td>
+          <td colspan="2" class="sheet-text12"><input type="text" name="spmana1" class="sheet-field25 sheet-text12"/></td>
+          <td colspan="4" class="sheet-text12"><input type="text" name="spr1" class="sheet-field75 sheet-text12"/></td>
+          <td colspan="4" class="sheet-text12"><input type="text" name="spd1" class="sheet-field75 sheet-text12"/></td>
+          <td colspan="7" class="sheet-text12"><input type="text" name="spaoe1" class="sheet-field150 sheet-text12"/></td>
+          <td colspan="2" class="sheet-text12"><input type="text" name="spsr1" class="sheet-field25 sheet-text12" value="Y"/></td>
+        </tr>
+        <tr>
+          <td colspan="2" class="sheet-text12"><input type="text" name="sl1" class="sheet-field25 sheet-text12"/></td>
+          <td colspan="7" class="sheet-text12"><input type="text" name="sp1" class="sheet-field150 sheet-text12"/></td>
+          <td colspan="5" class="sheet-text12"><input type="text" name="spsph1" class="sheet-field100 sheet-text12"/></td>
+          <td colspan="2" class="sheet-text12"><input type="text" name="spmana1" class="sheet-field25 sheet-text12"/></td>
+          <td colspan="4" class="sheet-text12"><input type="text" name="spr1" class="sheet-field75 sheet-text12"/></td>
+          <td colspan="4" class="sheet-text12"><input type="text" name="spd1" class="sheet-field75 sheet-text12"/></td>
+          <td colspan="7" class="sheet-text12"><input type="text" name="spaoe1" class="sheet-field150 sheet-text12"/></td>
+          <td colspan="2" class="sheet-text12"><input type="text" name="spsr1" class="sheet-field25 sheet-text12" value="Y"/></td>
+        </tr>
+        <tr>
+          <td colspan="2" class="sheet-text12"><input type="text" name="sl1" class="sheet-field25 sheet-text12"/></td>
+          <td colspan="7" class="sheet-text12"><input type="text" name="sp1" class="sheet-field150 sheet-text12"/></td>
+          <td colspan="5" class="sheet-text12"><input type="text" name="spsph1" class="sheet-field100 sheet-text12"/></td>
+          <td colspan="2" class="sheet-text12"><input type="text" name="spmana1" class="sheet-field25 sheet-text12"/></td>
+          <td colspan="4" class="sheet-text12"><input type="text" name="spr1" class="sheet-field75 sheet-text12"/></td>
+          <td colspan="4" class="sheet-text12"><input type="text" name="spd1" class="sheet-field75 sheet-text12"/></td>
+          <td colspan="7" class="sheet-text12"><input type="text" name="spaoe1" class="sheet-field150 sheet-text12"/></td>
+          <td colspan="2" class="sheet-text12"><input type="text" name="spsr1" class="sheet-field25 sheet-text12" value="Y"/></td>
+        </tr>
+        <tr>
+          <td colspan="2" class="sheet-text12"><input type="text" name="sl1" class="sheet-field25 sheet-text12"/></td>
+          <td colspan="7" class="sheet-text12"><input type="text" name="sp1" class="sheet-field150 sheet-text12"/></td>
+          <td colspan="5" class="sheet-text12"><input type="text" name="spsph1" class="sheet-field100 sheet-text12"/></td>
+          <td colspan="2" class="sheet-text12"><input type="text" name="spmana1" class="sheet-field25 sheet-text12"/></td>
+          <td colspan="4" class="sheet-text12"><input type="text" name="spr1" class="sheet-field75 sheet-text12"/></td>
+          <td colspan="4" class="sheet-text12"><input type="text" name="spd1" class="sheet-field75 sheet-text12"/></td>
+          <td colspan="7" class="sheet-text12"><input type="text" name="spaoe1" class="sheet-field150 sheet-text12"/></td>
+          <td colspan="2" class="sheet-text12"><input type="text" name="spsr1" class="sheet-field25 sheet-text12" value="Y"/></td>
+        </tr>
+        <tr>
+          <td colspan="2" class="sheet-text12"><input type="text" name="sl1" class="sheet-field25 sheet-text12"/></td>
+          <td colspan="7" class="sheet-text12"><input type="text" name="sp1" class="sheet-field150 sheet-text12"/></td>
+          <td colspan="5" class="sheet-text12"><input type="text" name="spsph1" class="sheet-field100 sheet-text12"/></td>
+          <td colspan="2" class="sheet-text12"><input type="text" name="spmana1" class="sheet-field25 sheet-text12"/></td>
+          <td colspan="4" class="sheet-text12"><input type="text" name="spr1" class="sheet-field75 sheet-text12"/></td>
+          <td colspan="4" class="sheet-text12"><input type="text" name="spd1" class="sheet-field75 sheet-text12"/></td>
+          <td colspan="7" class="sheet-text12"><input type="text" name="spaoe1" class="sheet-field150 sheet-text12"/></td>
+          <td colspan="2" class="sheet-text12"><input type="text" name="spsr1" class="sheet-field25 sheet-text12" value="Y"/></td>
+        </tr>
+    </table><br>
+
+<!--Notes-->
+<p style="text-align:left; margin-left:7px; font-family:ariel,helvetica,sans-serif; color:black; font-size:16px; font-weight:bold;">Notes:</p>
+<textarea class="sheet-note15">Magic notes</textarea>
+<!--copyright-->
+<p class="sheet-copyright3">Official version <b>Avatar Descension </b>October 23, 2016 * <i>Avatar Descension Association </i>&#169; 2016 Barry Aulis</p>
+</div>
+
+<!--Fourth tab Ki'ar page-->
+<div class="sheet-tab-content sheet-tab4" style="height: 1800px;">
+    <h1 class="sheet-title32">Ki'ar Page</h1><br>
+    
+<!--Ki'ari table-->
+    <table class="sheet-table9">
+        <tr class="sheet-title20">
+            <th colspan="6" bgcolor="#0066ff">Ki'ari (Arcane knight / Magus / Eldritch master)</th>
+        </tr>
+        <tr class="sheet-title16">
+            <td>Ki level</td><td>Ki</td><td colspan="2">Percentage Ki/level</td><td>Ki max</td><td>Regeneration</td>
+        </tr>
+        <tr>
+            <td class="sheet-text14"><input type="text" name="kl" class="sheet-field50 sheet-text14" value="none"/></td>
+            <td class="sheet-text14"><input type="text" name="ki" class="sheet-field50 sheet-text14" value="none"/></td>
+            <td colspan="2 "class="sheet-text14"><input type="text" name="kilevel" class="sheet-field75 sheet-text14" value="0% + 0"/></td>
+            <td class="sheet-text14"><input type="text" name="kimax" class="sheet-field50 sheet-text14" value="00"/>
+            <td class="sheet-text14"><input type="text" name="kiregen" class="sheet-field50 sheet-text14" value="0"/></td>
+        </tr>
+    </table>
+
+<!--Disciplines table-->
+    <table class="sheet-table12">
+        <tr>
+            <td class="sheet-title20" bgcolor="#0066ff">Disciplines</td>
+            <td class="sheet-text14"><input type="text" name="dis1" class="sheet-field100 sheet-text14" value="Main"/></td>
+            <td class="sheet-text14"><input type="text" name="dis2" class="sheet-field100 sheet-text14" value="Main"/></td>
+            <td class="sheet-text14"><input type="text" name="dis3" class="sheet-field100 sheet-text14" value="Main"/></td>
+            <td class="sheet-text14"><input type="text" name="dis4" class="sheet-field100 sheet-text14" value="Main"/></td>
+        </tr>
+        <tr>
+            <td class="sheet-text14"><input type="text" name="dis5" class="sheet-field100 sheet-text14" value="Level one"/></td>
+            <td class="sheet-text14"><input type="text" name="dis6" class="sheet-field100 sheet-text14" value="Level two"/></td>
+            <td class="sheet-text14"><input type="text" name="dis7" class="sheet-field100 sheet-text14" value="Level three"/></td>
+            <td class="sheet-text14"><input type="text" name="dis8" class="sheet-field100 sheet-text14" value="Level four"/></td>
+            <td class="sheet-text14"><input type="text" name="dis9" class="sheet-field100 sheet-text14" value="Level five"/></td>
+        </tr>
+        <tr>
+            <td class="sheet-text14"><input type="text" name="dis10" class="sheet-field100 sheet-text14" value="Level six"/></td>
+            <td class="sheet-text14"><input type="text" name="dis11" class="sheet-field100 sheet-text14" value="Level seven"/></td>
+            <td class="sheet-text14"><input type="text" name="dis12" class="sheet-field100 sheet-text14" value="Level eight"/></td>
+            <td class="sheet-text14"><input type="text" name="dis13" class="sheet-field100 sheet-text14" value="Level nine"/></td>
+            <td class="sheet-text14"><input type="text" name="dis14" class="sheet-field100 sheet-text14" value="Level ten"/></td>
+        </tr>
+    </table>
+
+<!--Ki powers-->
+    <table class="sheet-table11">
+        <tr class="sheet-title20" bgcolor="#0066ff">
+            <th colspan="33">Ki'ar Powers</th>
+        </tr>
+        <tr class="sheet-title16">
+            <td colspan="2">Level</td>
+            <td colspan="7">Power</td>
+            <td colspan="5">Discipline</td>
+            <td colspan="2">ki</td>
+            <td colspan="4">Range</td>
+            <td colspan="4">Duration</td>
+            <td colspan="7">Area of effect</td>
+            <td colspan="2">SR</td>
+        </tr>
+        <tr>
+          <td colspan="2" class="sheet-text12"><input type="text" name="sl1" class="sheet-field25 sheet-text12"/></td>
+          <td colspan="7" class="sheet-text12"><input type="text" name="sp1" class="sheet-field150 sheet-text12"/></td>
+          <td colspan="5" class="sheet-text12"><input type="text" name="spsph1" class="sheet-field100 sheet-text12"/></td>
+          <td colspan="2" class="sheet-text12"><input type="text" name="spmana1" class="sheet-field25 sheet-text12"/></td>
+          <td colspan="4" class="sheet-text12"><input type="text" name="spr1" class="sheet-field75 sheet-text12"/></td>
+          <td colspan="4" class="sheet-text12"><input type="text" name="spd1" class="sheet-field75 sheet-text12"/></td>
+          <td colspan="7" class="sheet-text12"><input type="text" name="spaoe1" class="sheet-field150 sheet-text12"/></td>
+          <td colspan="2" class="sheet-text12"><input type="text" name="spsr1" class="sheet-field25 sheet-text12" value="Y"/></td>
+        </tr>
+        <tr>
+          <td colspan="2" class="sheet-text12"><input type="text" name="sl1" class="sheet-field25 sheet-text12"/></td>
+          <td colspan="7" class="sheet-text12"><input type="text" name="sp1" class="sheet-field150 sheet-text12"/></td>
+          <td colspan="5" class="sheet-text12"><input type="text" name="spsph1" class="sheet-field100 sheet-text12"/></td>
+          <td colspan="2" class="sheet-text12"><input type="text" name="spmana1" class="sheet-field25 sheet-text12"/></td>
+          <td colspan="4" class="sheet-text12"><input type="text" name="spr1" class="sheet-field75 sheet-text12"/></td>
+          <td colspan="4" class="sheet-text12"><input type="text" name="spd1" class="sheet-field75 sheet-text12"/></td>
+          <td colspan="7" class="sheet-text12"><input type="text" name="spaoe1" class="sheet-field150 sheet-text12"/></td>
+          <td colspan="2" class="sheet-text12"><input type="text" name="spsr1" class="sheet-field25 sheet-text12" value="Y"/></td>
+        </tr>
+        <tr>
+          <td colspan="2" class="sheet-text12"><input type="text" name="sl1" class="sheet-field25 sheet-text12"/></td>
+          <td colspan="7" class="sheet-text12"><input type="text" name="sp1" class="sheet-field150 sheet-text12"/></td>
+          <td colspan="5" class="sheet-text12"><input type="text" name="spsph1" class="sheet-field100 sheet-text12"/></td>
+          <td colspan="2" class="sheet-text12"><input type="text" name="spmana1" class="sheet-field25 sheet-text12"/></td>
+          <td colspan="4" class="sheet-text12"><input type="text" name="spr1" class="sheet-field75 sheet-text12"/></td>
+          <td colspan="4" class="sheet-text12"><input type="text" name="spd1" class="sheet-field75 sheet-text12"/></td>
+          <td colspan="7" class="sheet-text12"><input type="text" name="spaoe1" class="sheet-field150 sheet-text12"/></td>
+          <td colspan="2" class="sheet-text12"><input type="text" name="spsr1" class="sheet-field25 sheet-text12" value="Y"/></td>
+        </tr>
+        <tr>
+          <td colspan="2" class="sheet-text12"><input type="text" name="sl1" class="sheet-field25 sheet-text12"/></td>
+          <td colspan="7" class="sheet-text12"><input type="text" name="sp1" class="sheet-field150 sheet-text12"/></td>
+          <td colspan="5" class="sheet-text12"><input type="text" name="spsph1" class="sheet-field100 sheet-text12"/></td>
+          <td colspan="2" class="sheet-text12"><input type="text" name="spmana1" class="sheet-field25 sheet-text12"/></td>
+          <td colspan="4" class="sheet-text12"><input type="text" name="spr1" class="sheet-field75 sheet-text12"/></td>
+          <td colspan="4" class="sheet-text12"><input type="text" name="spd1" class="sheet-field75 sheet-text12"/></td>
+          <td colspan="7" class="sheet-text12"><input type="text" name="spaoe1" class="sheet-field150 sheet-text12"/></td>
+          <td colspan="2" class="sheet-text12"><input type="text" name="spsr1" class="sheet-field25 sheet-text12" value="Y"/></td>
+        </tr>
+        <tr>
+          <td colspan="2" class="sheet-text12"><input type="text" name="sl1" class="sheet-field25 sheet-text12"/></td>
+          <td colspan="7" class="sheet-text12"><input type="text" name="sp1" class="sheet-field150 sheet-text12"/></td>
+          <td colspan="5" class="sheet-text12"><input type="text" name="spsph1" class="sheet-field100 sheet-text12"/></td>
+          <td colspan="2" class="sheet-text12"><input type="text" name="spmana1" class="sheet-field25 sheet-text12"/></td>
+          <td colspan="4" class="sheet-text12"><input type="text" name="spr1" class="sheet-field75 sheet-text12"/></td>
+          <td colspan="4" class="sheet-text12"><input type="text" name="spd1" class="sheet-field75 sheet-text12"/></td>
+          <td colspan="7" class="sheet-text12"><input type="text" name="spaoe1" class="sheet-field150 sheet-text12"/></td>
+          <td colspan="2" class="sheet-text12"><input type="text" name="spsr1" class="sheet-field25 sheet-text12" value="Y"/></td>
+        </tr>
+        <tr>
+          <td colspan="2" class="sheet-text12"><input type="text" name="sl1" class="sheet-field25 sheet-text12"/></td>
+          <td colspan="7" class="sheet-text12"><input type="text" name="sp1" class="sheet-field150 sheet-text12"/></td>
+          <td colspan="5" class="sheet-text12"><input type="text" name="spsph1" class="sheet-field100 sheet-text12"/></td>
+          <td colspan="2" class="sheet-text12"><input type="text" name="spmana1" class="sheet-field25 sheet-text12"/></td>
+          <td colspan="4" class="sheet-text12"><input type="text" name="spr1" class="sheet-field75 sheet-text12"/></td>
+          <td colspan="4" class="sheet-text12"><input type="text" name="spd1" class="sheet-field75 sheet-text12"/></td>
+          <td colspan="7" class="sheet-text12"><input type="text" name="spaoe1" class="sheet-field150 sheet-text12"/></td>
+          <td colspan="2" class="sheet-text12"><input type="text" name="spsr1" class="sheet-field25 sheet-text12" value="Y"/></td>
+        </tr>
+        <tr>
+          <td colspan="2" class="sheet-text12"><input type="text" name="sl1" class="sheet-field25 sheet-text12"/></td>
+          <td colspan="7" class="sheet-text12"><input type="text" name="sp1" class="sheet-field150 sheet-text12"/></td>
+          <td colspan="5" class="sheet-text12"><input type="text" name="spsph1" class="sheet-field100 sheet-text12"/></td>
+          <td colspan="2" class="sheet-text12"><input type="text" name="spmana1" class="sheet-field25 sheet-text12"/></td>
+          <td colspan="4" class="sheet-text12"><input type="text" name="spr1" class="sheet-field75 sheet-text12"/></td>
+          <td colspan="4" class="sheet-text12"><input type="text" name="spd1" class="sheet-field75 sheet-text12"/></td>
+          <td colspan="7" class="sheet-text12"><input type="text" name="spaoe1" class="sheet-field150 sheet-text12"/></td>
+          <td colspan="2" class="sheet-text12"><input type="text" name="spsr1" class="sheet-field25 sheet-text12" value="Y"/></td>
+        </tr>
+        <tr>
+          <td colspan="2" class="sheet-text12"><input type="text" name="sl1" class="sheet-field25 sheet-text12"/></td>
+          <td colspan="7" class="sheet-text12"><input type="text" name="sp1" class="sheet-field150 sheet-text12"/></td>
+          <td colspan="5" class="sheet-text12"><input type="text" name="spsph1" class="sheet-field100 sheet-text12"/></td>
+          <td colspan="2" class="sheet-text12"><input type="text" name="spmana1" class="sheet-field25 sheet-text12"/></td>
+          <td colspan="4" class="sheet-text12"><input type="text" name="spr1" class="sheet-field75 sheet-text12"/></td>
+          <td colspan="4" class="sheet-text12"><input type="text" name="spd1" class="sheet-field75 sheet-text12"/></td>
+          <td colspan="7" class="sheet-text12"><input type="text" name="spaoe1" class="sheet-field150 sheet-text12"/></td>
+          <td colspan="2" class="sheet-text12"><input type="text" name="spsr1" class="sheet-field25 sheet-text12" value="Y"/></td>
+        </tr>
+        <tr>
+          <td colspan="2" class="sheet-text12"><input type="text" name="sl1" class="sheet-field25 sheet-text12"/></td>
+          <td colspan="7" class="sheet-text12"><input type="text" name="sp1" class="sheet-field150 sheet-text12"/></td>
+          <td colspan="5" class="sheet-text12"><input type="text" name="spsph1" class="sheet-field100 sheet-text12"/></td>
+          <td colspan="2" class="sheet-text12"><input type="text" name="spmana1" class="sheet-field25 sheet-text12"/></td>
+          <td colspan="4" class="sheet-text12"><input type="text" name="spr1" class="sheet-field75 sheet-text12"/></td>
+          <td colspan="4" class="sheet-text12"><input type="text" name="spd1" class="sheet-field75 sheet-text12"/></td>
+          <td colspan="7" class="sheet-text12"><input type="text" name="spaoe1" class="sheet-field150 sheet-text12"/></td>
+          <td colspan="2" class="sheet-text12"><input type="text" name="spsr1" class="sheet-field25 sheet-text12" value="Y"/></td>
+        </tr>
+        <tr>
+          <td colspan="2" class="sheet-text12"><input type="text" name="sl1" class="sheet-field25 sheet-text12"/></td>
+          <td colspan="7" class="sheet-text12"><input type="text" name="sp1" class="sheet-field150 sheet-text12"/></td>
+          <td colspan="5" class="sheet-text12"><input type="text" name="spsph1" class="sheet-field100 sheet-text12"/></td>
+          <td colspan="2" class="sheet-text12"><input type="text" name="spmana1" class="sheet-field25 sheet-text12"/></td>
+          <td colspan="4" class="sheet-text12"><input type="text" name="spr1" class="sheet-field75 sheet-text12"/></td>
+          <td colspan="4" class="sheet-text12"><input type="text" name="spd1" class="sheet-field75 sheet-text12"/></td>
+          <td colspan="7" class="sheet-text12"><input type="text" name="spaoe1" class="sheet-field150 sheet-text12"/></td>
+          <td colspan="2" class="sheet-text12"><input type="text" name="spsr1" class="sheet-field25 sheet-text12" value="Y"/></td>
+        </tr>
+        <tr>
+          <td colspan="2" class="sheet-text12"><input type="text" name="sl1" class="sheet-field25 sheet-text12"/></td>
+          <td colspan="7" class="sheet-text12"><input type="text" name="sp1" class="sheet-field150 sheet-text12"/></td>
+          <td colspan="5" class="sheet-text12"><input type="text" name="spsph1" class="sheet-field100 sheet-text12"/></td>
+          <td colspan="2" class="sheet-text12"><input type="text" name="spmana1" class="sheet-field25 sheet-text12"/></td>
+          <td colspan="4" class="sheet-text12"><input type="text" name="spr1" class="sheet-field75 sheet-text12"/></td>
+          <td colspan="4" class="sheet-text12"><input type="text" name="spd1" class="sheet-field75 sheet-text12"/></td>
+          <td colspan="7" class="sheet-text12"><input type="text" name="spaoe1" class="sheet-field150 sheet-text12"/></td>
+          <td colspan="2" class="sheet-text12"><input type="text" name="spsr1" class="sheet-field25 sheet-text12" value="Y"/></td>
+        </tr>
+        <tr>
+          <td colspan="2" class="sheet-text12"><input type="text" name="sl1" class="sheet-field25 sheet-text12"/></td>
+          <td colspan="7" class="sheet-text12"><input type="text" name="sp1" class="sheet-field150 sheet-text12"/></td>
+          <td colspan="5" class="sheet-text12"><input type="text" name="spsph1" class="sheet-field100 sheet-text12"/></td>
+          <td colspan="2" class="sheet-text12"><input type="text" name="spmana1" class="sheet-field25 sheet-text12"/></td>
+          <td colspan="4" class="sheet-text12"><input type="text" name="spr1" class="sheet-field75 sheet-text12"/></td>
+          <td colspan="4" class="sheet-text12"><input type="text" name="spd1" class="sheet-field75 sheet-text12"/></td>
+          <td colspan="7" class="sheet-text12"><input type="text" name="spaoe1" class="sheet-field150 sheet-text12"/></td>
+          <td colspan="2" class="sheet-text12"><input type="text" name="spsr1" class="sheet-field25 sheet-text12" value="Y"/></td>
+        </tr>
+        <tr>
+          <td colspan="2" class="sheet-text12"><input type="text" name="sl1" class="sheet-field25 sheet-text12"/></td>
+          <td colspan="7" class="sheet-text12"><input type="text" name="sp1" class="sheet-field150 sheet-text12"/></td>
+          <td colspan="5" class="sheet-text12"><input type="text" name="spsph1" class="sheet-field100 sheet-text12"/></td>
+          <td colspan="2" class="sheet-text12"><input type="text" name="spmana1" class="sheet-field25 sheet-text12"/></td>
+          <td colspan="4" class="sheet-text12"><input type="text" name="spr1" class="sheet-field75 sheet-text12"/></td>
+          <td colspan="4" class="sheet-text12"><input type="text" name="spd1" class="sheet-field75 sheet-text12"/></td>
+          <td colspan="7" class="sheet-text12"><input type="text" name="spaoe1" class="sheet-field150 sheet-text12"/></td>
+          <td colspan="2" class="sheet-text12"><input type="text" name="spsr1" class="sheet-field25 sheet-text12" value="Y"/></td>
+        </tr>
+        <tr>
+          <td colspan="2" class="sheet-text12"><input type="text" name="sl1" class="sheet-field25 sheet-text12"/></td>
+          <td colspan="7" class="sheet-text12"><input type="text" name="sp1" class="sheet-field150 sheet-text12"/></td>
+          <td colspan="5" class="sheet-text12"><input type="text" name="spsph1" class="sheet-field100 sheet-text12"/></td>
+          <td colspan="2" class="sheet-text12"><input type="text" name="spmana1" class="sheet-field25 sheet-text12"/></td>
+          <td colspan="4" class="sheet-text12"><input type="text" name="spr1" class="sheet-field75 sheet-text12"/></td>
+          <td colspan="4" class="sheet-text12"><input type="text" name="spd1" class="sheet-field75 sheet-text12"/></td>
+          <td colspan="7" class="sheet-text12"><input type="text" name="spaoe1" class="sheet-field150 sheet-text12"/></td>
+          <td colspan="2" class="sheet-text12"><input type="text" name="spsr1" class="sheet-field25 sheet-text12" value="Y"/></td>
+        </tr>
+        <tr>
+          <td colspan="2" class="sheet-text12"><input type="text" name="sl1" class="sheet-field25 sheet-text12"/></td>
+          <td colspan="7" class="sheet-text12"><input type="text" name="sp1" class="sheet-field150 sheet-text12"/></td>
+          <td colspan="5" class="sheet-text12"><input type="text" name="spsph1" class="sheet-field100 sheet-text12"/></td>
+          <td colspan="2" class="sheet-text12"><input type="text" name="spmana1" class="sheet-field25 sheet-text12"/></td>
+          <td colspan="4" class="sheet-text12"><input type="text" name="spr1" class="sheet-field75 sheet-text12"/></td>
+          <td colspan="4" class="sheet-text12"><input type="text" name="spd1" class="sheet-field75 sheet-text12"/></td>
+          <td colspan="7" class="sheet-text12"><input type="text" name="spaoe1" class="sheet-field150 sheet-text12"/></td>
+          <td colspan="2" class="sheet-text12"><input type="text" name="spsr1" class="sheet-field25 sheet-text12" value="Y"/></td>
+        </tr>
+        <tr>
+          <td colspan="2" class="sheet-text12"><input type="text" name="sl1" class="sheet-field25 sheet-text12"/></td>
+          <td colspan="7" class="sheet-text12"><input type="text" name="sp1" class="sheet-field150 sheet-text12"/></td>
+          <td colspan="5" class="sheet-text12"><input type="text" name="spsph1" class="sheet-field100 sheet-text12"/></td>
+          <td colspan="2" class="sheet-text12"><input type="text" name="spmana1" class="sheet-field25 sheet-text12"/></td>
+          <td colspan="4" class="sheet-text12"><input type="text" name="spr1" class="sheet-field75 sheet-text12"/></td>
+          <td colspan="4" class="sheet-text12"><input type="text" name="spd1" class="sheet-field75 sheet-text12"/></td>
+          <td colspan="7" class="sheet-text12"><input type="text" name="spaoe1" class="sheet-field150 sheet-text12"/></td>
+          <td colspan="2" class="sheet-text12"><input type="text" name="spsr1" class="sheet-field25 sheet-text12" value="Y"/></td>
+        </tr>
+        <tr>
+          <td colspan="2" class="sheet-text12"><input type="text" name="sl1" class="sheet-field25 sheet-text12"/></td>
+          <td colspan="7" class="sheet-text12"><input type="text" name="sp1" class="sheet-field150 sheet-text12"/></td>
+          <td colspan="5" class="sheet-text12"><input type="text" name="spsph1" class="sheet-field100 sheet-text12"/></td>
+          <td colspan="2" class="sheet-text12"><input type="text" name="spmana1" class="sheet-field25 sheet-text12"/></td>
+          <td colspan="4" class="sheet-text12"><input type="text" name="spr1" class="sheet-field75 sheet-text12"/></td>
+          <td colspan="4" class="sheet-text12"><input type="text" name="spd1" class="sheet-field75 sheet-text12"/></td>
+          <td colspan="7" class="sheet-text12"><input type="text" name="spaoe1" class="sheet-field150 sheet-text12"/></td>
+          <td colspan="2" class="sheet-text12"><input type="text" name="spsr1" class="sheet-field25 sheet-text12" value="Y"/></td>
+        </tr>
+        <tr>
+          <td colspan="2" class="sheet-text12"><input type="text" name="sl1" class="sheet-field25 sheet-text12"/></td>
+          <td colspan="7" class="sheet-text12"><input type="text" name="sp1" class="sheet-field150 sheet-text12"/></td>
+          <td colspan="5" class="sheet-text12"><input type="text" name="spsph1" class="sheet-field100 sheet-text12"/></td>
+          <td colspan="2" class="sheet-text12"><input type="text" name="spmana1" class="sheet-field25 sheet-text12"/></td>
+          <td colspan="4" class="sheet-text12"><input type="text" name="spr1" class="sheet-field75 sheet-text12"/></td>
+          <td colspan="4" class="sheet-text12"><input type="text" name="spd1" class="sheet-field75 sheet-text12"/></td>
+          <td colspan="7" class="sheet-text12"><input type="text" name="spaoe1" class="sheet-field150 sheet-text12"/></td>
+          <td colspan="2" class="sheet-text12"><input type="text" name="spsr1" class="sheet-field25 sheet-text12" value="Y"/></td>
+        </tr>
+        <tr>
+          <td colspan="2" class="sheet-text12"><input type="text" name="sl1" class="sheet-field25 sheet-text12"/></td>
+          <td colspan="7" class="sheet-text12"><input type="text" name="sp1" class="sheet-field150 sheet-text12"/></td>
+          <td colspan="5" class="sheet-text12"><input type="text" name="spsph1" class="sheet-field100 sheet-text12"/></td>
+          <td colspan="2" class="sheet-text12"><input type="text" name="spmana1" class="sheet-field25 sheet-text12"/></td>
+          <td colspan="4" class="sheet-text12"><input type="text" name="spr1" class="sheet-field75 sheet-text12"/></td>
+          <td colspan="4" class="sheet-text12"><input type="text" name="spd1" class="sheet-field75 sheet-text12"/></td>
+          <td colspan="7" class="sheet-text12"><input type="text" name="spaoe1" class="sheet-field150 sheet-text12"/></td>
+          <td colspan="2" class="sheet-text12"><input type="text" name="spsr1" class="sheet-field25 sheet-text12" value="Y"/></td>
+        </tr>
+        <tr>
+          <td colspan="2" class="sheet-text12"><input type="text" name="sl1" class="sheet-field25 sheet-text12"/></td>
+          <td colspan="7" class="sheet-text12"><input type="text" name="sp1" class="sheet-field150 sheet-text12"/></td>
+          <td colspan="5" class="sheet-text12"><input type="text" name="spsph1" class="sheet-field100 sheet-text12"/></td>
+          <td colspan="2" class="sheet-text12"><input type="text" name="spmana1" class="sheet-field25 sheet-text12"/></td>
+          <td colspan="4" class="sheet-text12"><input type="text" name="spr1" class="sheet-field75 sheet-text12"/></td>
+          <td colspan="4" class="sheet-text12"><input type="text" name="spd1" class="sheet-field75 sheet-text12"/></td>
+          <td colspan="7" class="sheet-text12"><input type="text" name="spaoe1" class="sheet-field150 sheet-text12"/></td>
+          <td colspan="2" class="sheet-text12"><input type="text" name="spsr1" class="sheet-field25 sheet-text12" value="Y"/></td>
+        </tr>
+        <tr>
+          <td colspan="2" class="sheet-text12"><input type="text" name="sl1" class="sheet-field25 sheet-text12"/></td>
+          <td colspan="7" class="sheet-text12"><input type="text" name="sp1" class="sheet-field150 sheet-text12"/></td>
+          <td colspan="5" class="sheet-text12"><input type="text" name="spsph1" class="sheet-field100 sheet-text12"/></td>
+          <td colspan="2" class="sheet-text12"><input type="text" name="spmana1" class="sheet-field25 sheet-text12"/></td>
+          <td colspan="4" class="sheet-text12"><input type="text" name="spr1" class="sheet-field75 sheet-text12"/></td>
+          <td colspan="4" class="sheet-text12"><input type="text" name="spd1" class="sheet-field75 sheet-text12"/></td>
+          <td colspan="7" class="sheet-text12"><input type="text" name="spaoe1" class="sheet-field150 sheet-text12"/></td>
+          <td colspan="2" class="sheet-text12"><input type="text" name="spsr1" class="sheet-field25 sheet-text12" value="Y"/></td>
+        </tr>
+        <tr>
+          <td colspan="2" class="sheet-text12"><input type="text" name="sl1" class="sheet-field25 sheet-text12"/></td>
+          <td colspan="7" class="sheet-text12"><input type="text" name="sp1" class="sheet-field150 sheet-text12"/></td>
+          <td colspan="5" class="sheet-text12"><input type="text" name="spsph1" class="sheet-field100 sheet-text12"/></td>
+          <td colspan="2" class="sheet-text12"><input type="text" name="spmana1" class="sheet-field25 sheet-text12"/></td>
+          <td colspan="4" class="sheet-text12"><input type="text" name="spr1" class="sheet-field75 sheet-text12"/></td>
+          <td colspan="4" class="sheet-text12"><input type="text" name="spd1" class="sheet-field75 sheet-text12"/></td>
+          <td colspan="7" class="sheet-text12"><input type="text" name="spaoe1" class="sheet-field150 sheet-text12"/></td>
+          <td colspan="2" class="sheet-text12"><input type="text" name="spsr1" class="sheet-field25 sheet-text12" value="Y"/></td>
+        </tr>
+        <tr>
+          <td colspan="2" class="sheet-text12"><input type="text" name="sl1" class="sheet-field25 sheet-text12"/></td>
+          <td colspan="7" class="sheet-text12"><input type="text" name="sp1" class="sheet-field150 sheet-text12"/></td>
+          <td colspan="5" class="sheet-text12"><input type="text" name="spsph1" class="sheet-field100 sheet-text12"/></td>
+          <td colspan="2" class="sheet-text12"><input type="text" name="spmana1" class="sheet-field25 sheet-text12"/></td>
+          <td colspan="4" class="sheet-text12"><input type="text" name="spr1" class="sheet-field75 sheet-text12"/></td>
+          <td colspan="4" class="sheet-text12"><input type="text" name="spd1" class="sheet-field75 sheet-text12"/></td>
+          <td colspan="7" class="sheet-text12"><input type="text" name="spaoe1" class="sheet-field150 sheet-text12"/></td>
+          <td colspan="2" class="sheet-text12"><input type="text" name="spsr1" class="sheet-field25 sheet-text12" value="Y"/></td>
+        </tr>
+        <tr>
+          <td colspan="2" class="sheet-text12"><input type="text" name="sl1" class="sheet-field25 sheet-text12"/></td>
+          <td colspan="7" class="sheet-text12"><input type="text" name="sp1" class="sheet-field150 sheet-text12"/></td>
+          <td colspan="5" class="sheet-text12"><input type="text" name="spsph1" class="sheet-field100 sheet-text12"/></td>
+          <td colspan="2" class="sheet-text12"><input type="text" name="spmana1" class="sheet-field25 sheet-text12"/></td>
+          <td colspan="4" class="sheet-text12"><input type="text" name="spr1" class="sheet-field75 sheet-text12"/></td>
+          <td colspan="4" class="sheet-text12"><input type="text" name="spd1" class="sheet-field75 sheet-text12"/></td>
+          <td colspan="7" class="sheet-text12"><input type="text" name="spaoe1" class="sheet-field150 sheet-text12"/></td>
+          <td colspan="2" class="sheet-text12"><input type="text" name="spsr1" class="sheet-field25 sheet-text12" value="Y"/></td>
+        </tr>
+        <tr>
+          <td colspan="2" class="sheet-text12"><input type="text" name="sl1" class="sheet-field25 sheet-text12"/></td>
+          <td colspan="7" class="sheet-text12"><input type="text" name="sp1" class="sheet-field150 sheet-text12"/></td>
+          <td colspan="5" class="sheet-text12"><input type="text" name="spsph1" class="sheet-field100 sheet-text12"/></td>
+          <td colspan="2" class="sheet-text12"><input type="text" name="spmana1" class="sheet-field25 sheet-text12"/></td>
+          <td colspan="4" class="sheet-text12"><input type="text" name="spr1" class="sheet-field75 sheet-text12"/></td>
+          <td colspan="4" class="sheet-text12"><input type="text" name="spd1" class="sheet-field75 sheet-text12"/></td>
+          <td colspan="7" class="sheet-text12"><input type="text" name="spaoe1" class="sheet-field150 sheet-text12"/></td>
+          <td colspan="2" class="sheet-text12"><input type="text" name="spsr1" class="sheet-field25 sheet-text12" value="Y"/></td>
+        </tr>
+        <tr>
+          <td colspan="2" class="sheet-text12"><input type="text" name="sl1" class="sheet-field25 sheet-text12"/></td>
+          <td colspan="7" class="sheet-text12"><input type="text" name="sp1" class="sheet-field150 sheet-text12"/></td>
+          <td colspan="5" class="sheet-text12"><input type="text" name="spsph1" class="sheet-field100 sheet-text12"/></td>
+          <td colspan="2" class="sheet-text12"><input type="text" name="spmana1" class="sheet-field25 sheet-text12"/></td>
+          <td colspan="4" class="sheet-text12"><input type="text" name="spr1" class="sheet-field75 sheet-text12"/></td>
+          <td colspan="4" class="sheet-text12"><input type="text" name="spd1" class="sheet-field75 sheet-text12"/></td>
+          <td colspan="7" class="sheet-text12"><input type="text" name="spaoe1" class="sheet-field150 sheet-text12"/></td>
+          <td colspan="2" class="sheet-text12"><input type="text" name="spsr1" class="sheet-field25 sheet-text12" value="Y"/></td>
+        </tr>
+        <tr>
+          <td colspan="2" class="sheet-text12"><input type="text" name="sl1" class="sheet-field25 sheet-text12"/></td>
+          <td colspan="7" class="sheet-text12"><input type="text" name="sp1" class="sheet-field150 sheet-text12"/></td>
+          <td colspan="5" class="sheet-text12"><input type="text" name="spsph1" class="sheet-field100 sheet-text12"/></td>
+          <td colspan="2" class="sheet-text12"><input type="text" name="spmana1" class="sheet-field25 sheet-text12"/></td>
+          <td colspan="4" class="sheet-text12"><input type="text" name="spr1" class="sheet-field75 sheet-text12"/></td>
+          <td colspan="4" class="sheet-text12"><input type="text" name="spd1" class="sheet-field75 sheet-text12"/></td>
+          <td colspan="7" class="sheet-text12"><input type="text" name="spaoe1" class="sheet-field150 sheet-text12"/></td>
+          <td colspan="2" class="sheet-text12"><input type="text" name="spsr1" class="sheet-field25 sheet-text12" value="Y"/></td>
+        </tr>
+        <tr>
+          <td colspan="2" class="sheet-text12"><input type="text" name="sl1" class="sheet-field25 sheet-text12"/></td>
+          <td colspan="7" class="sheet-text12"><input type="text" name="sp1" class="sheet-field150 sheet-text12"/></td>
+          <td colspan="5" class="sheet-text12"><input type="text" name="spsph1" class="sheet-field100 sheet-text12"/></td>
+          <td colspan="2" class="sheet-text12"><input type="text" name="spmana1" class="sheet-field25 sheet-text12"/></td>
+          <td colspan="4" class="sheet-text12"><input type="text" name="spr1" class="sheet-field75 sheet-text12"/></td>
+          <td colspan="4" class="sheet-text12"><input type="text" name="spd1" class="sheet-field75 sheet-text12"/></td>
+          <td colspan="7" class="sheet-text12"><input type="text" name="spaoe1" class="sheet-field150 sheet-text12"/></td>
+          <td colspan="2" class="sheet-text12"><input type="text" name="spsr1" class="sheet-field25 sheet-text12" value="Y"/></td>
+        </tr>
+        <tr>
+          <td colspan="2" class="sheet-text12"><input type="text" name="sl1" class="sheet-field25 sheet-text12"/></td>
+          <td colspan="7" class="sheet-text12"><input type="text" name="sp1" class="sheet-field150 sheet-text12"/></td>
+          <td colspan="5" class="sheet-text12"><input type="text" name="spsph1" class="sheet-field100 sheet-text12"/></td>
+          <td colspan="2" class="sheet-text12"><input type="text" name="spmana1" class="sheet-field25 sheet-text12"/></td>
+          <td colspan="4" class="sheet-text12"><input type="text" name="spr1" class="sheet-field75 sheet-text12"/></td>
+          <td colspan="4" class="sheet-text12"><input type="text" name="spd1" class="sheet-field75 sheet-text12"/></td>
+          <td colspan="7" class="sheet-text12"><input type="text" name="spaoe1" class="sheet-field150 sheet-text12"/></td>
+          <td colspan="2" class="sheet-text12"><input type="text" name="spsr1" class="sheet-field25 sheet-text12" value="Y"/></td>
+        </tr>
+        <tr>
+          <td colspan="2" class="sheet-text12"><input type="text" name="sl1" class="sheet-field25 sheet-text12"/></td>
+          <td colspan="7" class="sheet-text12"><input type="text" name="sp1" class="sheet-field150 sheet-text12"/></td>
+          <td colspan="5" class="sheet-text12"><input type="text" name="spsph1" class="sheet-field100 sheet-text12"/></td>
+          <td colspan="2" class="sheet-text12"><input type="text" name="spmana1" class="sheet-field25 sheet-text12"/></td>
+          <td colspan="4" class="sheet-text12"><input type="text" name="spr1" class="sheet-field75 sheet-text12"/></td>
+          <td colspan="4" class="sheet-text12"><input type="text" name="spd1" class="sheet-field75 sheet-text12"/></td>
+          <td colspan="7" class="sheet-text12"><input type="text" name="spaoe1" class="sheet-field150 sheet-text12"/></td>
+          <td colspan="2" class="sheet-text12"><input type="text" name="spsr1" class="sheet-field25 sheet-text12" value="Y"/></td>
+        </tr>
+    </table><br>
+
+<!--Notes-->
+<p style="text-align:left; margin-left:7px; font-family:ariel,helvetica,sans-serif; color:black; font-size:16px; font-weight:bold;">Notes:</p>
+<textarea class="sheet-note15">Ki'ar notes</textarea>
+<!--copyright-->
+<p class="sheet-copyright4">Official version <b>Avatar Descension </b>October 23, 2016 * <i>Avatar Descension Association </i>&#169; 2016 Barry Aulis</p>
+</div>
+
+<!--Fifth tab Abilities page-->
+<div class="sheet-tab-content sheet-tab5" style="height: 1800px;">
+    
+     <h1 class="sheet-title32">Abilities Page</h1><br>
+
+<!--Abilities table-->
+     <table class="sheet-table13">
+         <tr class="sheet-title20" bgcolor="#ff6600"><td colspan="14" bgcolor="#ff6600">Character Abilities</td></tr>
+         <tr class="sheet-title16">
+            <td colspan="3">Ability</td><td colspan="2">Source</td><td colspan="9">Effect</td>
+         </tr>
+         <tr class="sheet-text14">
+            <td colspan="3"><input type="text" name="abil1" class="sheet-field150 sheet-text14"/></td> 
+            <td colspan="2"><input type="text" name="abilsrc1" class="sheet-field100 sheet-text14"/></td>
+            <td colspan="9"><input type="text" name="abileff1" class="sheet-field500 sheet-text14"/></td>
+         </tr>
+         <tr class="sheet-text14">
+            <td colspan="3"><input type="text" name="abil1" class="sheet-field150 sheet-text14"/></td> 
+            <td colspan="2"><input type="text" name="abilsrc1" class="sheet-field100 sheet-text14"/></td>
+            <td colspan="9"><input type="text" name="abileff1" class="sheet-field500 sheet-text14"/></td>
+         </tr>
+         <tr class="sheet-text14">
+            <td colspan="3"><input type="text" name="abil1" class="sheet-field150 sheet-text14"/></td> 
+            <td colspan="2"><input type="text" name="abilsrc1" class="sheet-field100 sheet-text14"/></td>
+            <td colspan="9"><input type="text" name="abileff1" class="sheet-field500 sheet-text14"/></td>
+         </tr>
+         <tr class="sheet-text14">
+            <td colspan="3"><input type="text" name="abil1" class="sheet-field150 sheet-text14"/></td> 
+            <td colspan="2"><input type="text" name="abilsrc1" class="sheet-field100 sheet-text14"/></td>
+            <td colspan="9"><input type="text" name="abileff1" class="sheet-field500 sheet-text14"/></td>
+         </tr>
+         <tr class="sheet-text14">
+            <td colspan="3"><input type="text" name="abil1" class="sheet-field150 sheet-text14"/></td> 
+            <td colspan="2"><input type="text" name="abilsrc1" class="sheet-field100 sheet-text14"/></td>
+            <td colspan="9"><input type="text" name="abileff1" class="sheet-field500 sheet-text14"/></td>
+         </tr>
+         <tr class="sheet-text14">
+            <td colspan="3"><input type="text" name="abil1" class="sheet-field150 sheet-text14"/></td> 
+            <td colspan="2"><input type="text" name="abilsrc1" class="sheet-field100 sheet-text14"/></td>
+            <td colspan="9"><input type="text" name="abileff1" class="sheet-field500 sheet-text14"/></td>
+         </tr>
+         <tr class="sheet-text14">
+            <td colspan="3"><input type="text" name="abil1" class="sheet-field150 sheet-text14"/></td> 
+            <td colspan="2"><input type="text" name="abilsrc1" class="sheet-field100 sheet-text14"/></td>
+            <td colspan="9"><input type="text" name="abileff1" class="sheet-field500 sheet-text14"/></td>
+         </tr>
+         <tr class="sheet-text14">
+            <td colspan="3"><input type="text" name="abil1" class="sheet-field150 sheet-text14"/></td> 
+            <td colspan="2"><input type="text" name="abilsrc1" class="sheet-field100 sheet-text14"/></td>
+            <td colspan="9"><input type="text" name="abileff1" class="sheet-field500 sheet-text14"/></td>
+         </tr>
+         <tr class="sheet-text14">
+            <td colspan="3"><input type="text" name="abil1" class="sheet-field150 sheet-text14"/></td> 
+            <td colspan="2"><input type="text" name="abilsrc1" class="sheet-field100 sheet-text14"/></td>
+            <td colspan="9"><input type="text" name="abileff1" class="sheet-field500 sheet-text14"/></td>
+         </tr>
+         <tr class="sheet-text14">
+            <td colspan="3"><input type="text" name="abil1" class="sheet-field150 sheet-text14"/></td> 
+            <td colspan="2"><input type="text" name="abilsrc1" class="sheet-field100 sheet-text14"/></td>
+            <td colspan="9"><input type="text" name="abileff1" class="sheet-field500 sheet-text14"/></td>
+         </tr>
+         <tr class="sheet-text14">
+            <td colspan="3"><input type="text" name="abil1" class="sheet-field150 sheet-text14"/></td> 
+            <td colspan="2"><input type="text" name="abilsrc1" class="sheet-field100 sheet-text14"/></td>
+            <td colspan="9"><input type="text" name="abileff1" class="sheet-field500 sheet-text14"/></td>
+         </tr>
+         <tr class="sheet-text14">
+            <td colspan="3"><input type="text" name="abil1" class="sheet-field150 sheet-text14"/></td> 
+            <td colspan="2"><input type="text" name="abilsrc1" class="sheet-field100 sheet-text14"/></td>
+            <td colspan="9"><input type="text" name="abileff1" class="sheet-field500 sheet-text14"/></td>
+         </tr>
+         <tr class="sheet-text14">
+            <td colspan="3"><input type="text" name="abil1" class="sheet-field150 sheet-text14"/></td> 
+            <td colspan="2"><input type="text" name="abilsrc1" class="sheet-field100 sheet-text14"/></td>
+            <td colspan="9"><input type="text" name="abileff1" class="sheet-field500 sheet-text14"/></td>
+         </tr>
+         <tr class="sheet-text14">
+            <td colspan="3"><input type="text" name="abil1" class="sheet-field150 sheet-text14"/></td> 
+            <td colspan="2"><input type="text" name="abilsrc1" class="sheet-field100 sheet-text14"/></td>
+            <td colspan="9"><input type="text" name="abileff1" class="sheet-field500 sheet-text14"/></td>
+         </tr>
+         <tr class="sheet-text14">
+            <td colspan="3"><input type="text" name="abil1" class="sheet-field150 sheet-text14"/></td> 
+            <td colspan="2"><input type="text" name="abilsrc1" class="sheet-field100 sheet-text14"/></td>
+            <td colspan="9"><input type="text" name="abileff1" class="sheet-field500 sheet-text14"/></td>
+         </tr>
+         <tr class="sheet-text14">
+            <td colspan="3"><input type="text" name="abil1" class="sheet-field150 sheet-text14"/></td> 
+            <td colspan="2"><input type="text" name="abilsrc1" class="sheet-field100 sheet-text14"/></td>
+            <td colspan="9"><input type="text" name="abileff1" class="sheet-field500 sheet-text14"/></td>
+         </tr>
+         <tr class="sheet-text14">
+            <td colspan="3"><input type="text" name="abil1" class="sheet-field150 sheet-text14"/></td> 
+            <td colspan="2"><input type="text" name="abilsrc1" class="sheet-field100 sheet-text14"/></td>
+            <td colspan="9"><input type="text" name="abileff1" class="sheet-field500 sheet-text14"/></td>
+         </tr>
+         <tr class="sheet-text14">
+            <td colspan="3"><input type="text" name="abil1" class="sheet-field150 sheet-text14"/></td> 
+            <td colspan="2"><input type="text" name="abilsrc1" class="sheet-field100 sheet-text14"/></td>
+            <td colspan="9"><input type="text" name="abileff1" class="sheet-field500 sheet-text14"/></td>
+         </tr>
+         <tr class="sheet-text14">
+            <td colspan="3"><input type="text" name="abil1" class="sheet-field150 sheet-text14"/></td> 
+            <td colspan="2"><input type="text" name="abilsrc1" class="sheet-field100 sheet-text14"/></td>
+            <td colspan="9"><input type="text" name="abileff1" class="sheet-field500 sheet-text14"/></td>
+         </tr>
+         <tr class="sheet-text14">
+            <td colspan="3"><input type="text" name="abil1" class="sheet-field150 sheet-text14"/></td> 
+            <td colspan="2"><input type="text" name="abilsrc1" class="sheet-field100 sheet-text14"/></td>
+            <td colspan="9"><input type="text" name="abileff1" class="sheet-field500 sheet-text14"/></td>
+         </tr>
+         <tr class="sheet-text14">
+            <td colspan="3"><input type="text" name="abil1" class="sheet-field150 sheet-text14"/></td> 
+            <td colspan="2"><input type="text" name="abilsrc1" class="sheet-field100 sheet-text14"/></td>
+            <td colspan="9"><input type="text" name="abileff1" class="sheet-field500 sheet-text14"/></td>
+         </tr>
+     </table><br>
+
+<!--Notes-->
+<p style="text-align:left; margin-left:7px; font-family:ariel,helvetica,sans-serif; color:black; font-size:16px; font-weight:bold;">Notes:</p>
+<textarea class="sheet-note25">Ability notes</textarea>
+<!--copyright-->
+<p class="sheet-copyright5">Official version <b>Avatar Descension </b>October 23, 2016 * <i>Avatar Descension Association </i>&#169; 2016 Barry Aulis</p>
+</div>
+
+<!--Sixth tab Equipment page-->
+<div class="sheet-tab-content sheet-tab6" style="height: 1800px;">
+
+    <h1 class="sheet-title32">Equipment Page</h1><br>
+
+<!--Money-->
+    <table class="sheet-table14">
+        <tr class="sheet-title20">
+            <td bgcolor="#ff0000">Money</td><td bgcolor="#b87333">Copper</td><td bgcolor="#c0c0co">Silver</td><td bgcolor="#8e9691">Electrum</td>
+            <td bgcolor="#d4af37">Gold</td><td bgcolor="#e5e4e2">Platinum</td><td bgcolor="#acacac">Mithril</td><td bgcolor="#fdeef4">Gems</td>
+        </tr>
+        <tr class="sheet-text14">
+            <td bgcolor="#ff0000"></td>
+            <td><input type="text" name="mcp" class="sheet-field75 sheet-text14" value="00 CP"/></td>
+            <td><input type="text" name="msp" class="sheet-field75 sheet-text14" value="00 SP"/></td>
+            <td><input type="text" name="mep" class="sheet-field75 sheet-text14" value="00 EP"/></td>
+            <td><input type="text" name="mgp" class="sheet-field75 sheet-text14" value="00 GP"/></td>
+            <td><input type="text" name="mpp" class="sheet-field75 sheet-text14" value="00 PP"/></td>
+            <td><input type="text" name="mpp" class="sheet-field75 sheet-text14" value="00 MP"/></td>
+            <td><input type="text" name="mgems" class="sheet-field75 sheet-text14" value="000 GP"/></td>
+        </tr>
+    </table><br>
+
+<!--Mount-->
+    <h3 class="sheet-title16" style="line-height:175%;">
+    Mount's name: <input type="text" name="mntname" class="sheet-field150 sheet-text14" value="name"/>
+    Species: <input type="text" name="mntspc" class="sheet-field100 sheet-text14" value="horse"/>
+    Load (carried/maximum): <input type="text" name="mntload" class="sheet-field150 sheet-text14" value="0000 u / 0000 u"/></h3>
+    <h3 class="sheet-title16" style="line-height:175%;">
+    Movement: <input type="text" name="mntmove" class="sheet-field150 sheet-text14" value="10 hexes / 10 sqs"/>
+    Notes: <input type="text" name="mntnotes" class="sheet-field500 sheet-text14"/></h3>
+
+<!--Encumbrance-->
+    <table class="sheet-table14a">
+        <tr class="sheet-title20"><td colspan="9" bgcolor="#ff0000">Encumbrance</td></tr>
+        <tr class="sheet-title16">
+            <td bgcolor="#ff0000"></td><td>Carried</td><td>Maximum</td><td>Percent</td>
+            <td colspan="2">Encumbrance</td><td>Movement</td><td>Combat</td><td>Dexterity</td>
+        </tr>
+        <tr>
+            <td class="sheet-text16">All gear</td>
+            <td class="sheet-text14"><input type="text" name="eqcar" class="sheet-field75 sheet-text14" value="0000 u"/></td>
+            <td class="sheet-text14"><input type="text" name="eqmax" class="sheet-field75 sheet-text14" value="0000 u"/></td>
+            <td class="sheet-text14"><input type="text" name="eqpercent" class="sheet-field75 sheet-text14" value="0 %"/></td>
+            <td colspan="2" class="sheet-text14"><select name="eqenc" class="sheet-field100 sheet-text14">
+              <option selected="selected">None</option>
+              <option>Light</option>
+              <option>Medium</option>
+              <option>Heavy</option>
+              </select></td>
+            <td class="sheet-text14"><select name="eqmove" class="sheet-field75 sheet-text14">
+              <option selected="selected">X 1</option>
+              <option>X 3/4</option>
+              <option>X 1/2</option>
+              <option>X 1/3</option>
+              </select></td>
+            <td class="sheet-text14"><select name="eqcom" class="sheet-field50 sheet-text14">
+              <option selected="selected">+ 0</option>
+              <option>- 1</option>
+              <option>- 2</option>
+              <option>- 4</option>
+              </select></td>
+            <td class="sheet-text14"><select name="eqdex" class="sheet-field50 sheet-text14">
+              <option selected="selected">+ 0</option>
+              <option>- 1</option>
+              <option>- 3</option>
+              </select></td>
+        </tr>
+        <tr>
+            <td class="sheet-text16">Battle gear</td>
+            <td class="sheet-text14"><input type="text" name="batcar" class="sheet-field75 sheet-text14" value="0000 u"/></td>
+            <td class="sheet-text14"><input type="text" name="batmax" class="sheet-field75 sheet-text14" value="0000 u"/></td>
+            <td class="sheet-text14"><input type="text" name="batpercent" class="sheet-field75 sheet-text14" value="0 %"/></td>
+            <td colspan="2" class="sheet-text14"><select name="batenc" class="sheet-field100 sheet-text14">
+              <option selected="selected">None</option>
+              <option>Light</option>
+              <option>Medium</option>
+              <option>Heavy</option>
+              </select></td>
+              <td class="sheet-text14"><select name="batmove" class="sheet-field75 sheet-text14">
+              <option selected="selected">X 1</option>
+              <option>X 3/4</option>
+              <option>X 1/2</option>
+              <option>X 1/3</option>
+              </select></td>
+              <td class="sheet-text14"><select name="batcom" class="sheet-field50 sheet-text14">
+              <option selected="selected">+ 0</option>
+              <option>- 1</option>
+              <option>- 2</option>
+              <option>- 4</option>
+              </select></td>
+              <td class="sheet-text14"><select name="batdex" class="sheet-field50 sheet-text14">
+              <option selected="selected">+ 0</option>
+              <option>- 1</option>
+              <option>- 3</option>
+              </select></td>
+        </tr>
+    </table>
+
+<!--Equipment table-->
+    <table class="sheet-table15">
+        <tr class="sheet-title20">
+            <td colspan="14" bgcolor="#ff0000">Equipment</td>
+        </tr>
+        <tr class="sheet-title14">
+            <td colspan="2">Equipment</td><td colspan="4">Description</td><td colspan="1">Weight</td>
+            <td colspan="2">Equipment</td><td colspan="4">Description</td><td colspan="1">Weight</td>
+        </tr>
+        <tr>
+            <td colspan="2" class="sheet-text14"><input type="text" name="eq1" class="sheet-field100 sheet-text14"/></td>
+            <td colspan="4" class="sheet-text14"><input type="text" name="eqdes1" class="sheet-field200 sheet-text14"/></td>
+            <td colspan="1" class="sheet-text14"><input type="text" name="eqwgt1" class="sheet-field50 sheet-text14"/></td>
+            <td colspan="2" class="sheet-text14"><input type="text" name="eq1" class="sheet-field100 sheet-text14"/></td>
+            <td colspan="4" class="sheet-text14"><input type="text" name="eqdes1" class="sheet-field200 sheet-text14"/></td>
+            <td colspan="1" class="sheet-text14"><input type="text" name="eqwgt1" class="sheet-field50 sheet-text14"/></td>
+        </tr>
+        <tr>
+            <td colspan="2" class="sheet-text14"><input type="text" name="eq1" class="sheet-field100 sheet-text14"/></td>
+            <td colspan="4" class="sheet-text14"><input type="text" name="eqdes1" class="sheet-field200 sheet-text14"/></td>
+            <td colspan="1" class="sheet-text14"><input type="text" name="eqwgt1" class="sheet-field50 sheet-text14"/></td>
+            <td colspan="2" class="sheet-text14"><input type="text" name="eq1" class="sheet-field100 sheet-text14"/></td>
+            <td colspan="4" class="sheet-text14"><input type="text" name="eqdes1" class="sheet-field200 sheet-text14"/></td>
+            <td colspan="1" class="sheet-text14"><input type="text" name="eqwgt1" class="sheet-field50 sheet-text14"/></td>
+        </tr>
+        <tr>
+            <td colspan="2" class="sheet-text14"><input type="text" name="eq1" class="sheet-field100 sheet-text14"/></td>
+            <td colspan="4" class="sheet-text14"><input type="text" name="eqdes1" class="sheet-field200 sheet-text14"/></td>
+            <td colspan="1" class="sheet-text14"><input type="text" name="eqwgt1" class="sheet-field50 sheet-text14"/></td>
+            <td colspan="2" class="sheet-text14"><input type="text" name="eq1" class="sheet-field100 sheet-text14"/></td>
+            <td colspan="4" class="sheet-text14"><input type="text" name="eqdes1" class="sheet-field200 sheet-text14"/></td>
+            <td colspan="1" class="sheet-text14"><input type="text" name="eqwgt1" class="sheet-field50 sheet-text14"/></td>
+        </tr>
+        <tr>
+            <td colspan="2" class="sheet-text14"><input type="text" name="eq1" class="sheet-field100 sheet-text14"/></td>
+            <td colspan="4" class="sheet-text14"><input type="text" name="eqdes1" class="sheet-field200 sheet-text14"/></td>
+            <td colspan="1" class="sheet-text14"><input type="text" name="eqwgt1" class="sheet-field50 sheet-text14"/></td>
+            <td colspan="2" class="sheet-text14"><input type="text" name="eq1" class="sheet-field100 sheet-text14"/></td>
+            <td colspan="4" class="sheet-text14"><input type="text" name="eqdes1" class="sheet-field200 sheet-text14"/></td>
+            <td colspan="1" class="sheet-text14"><input type="text" name="eqwgt1" class="sheet-field50 sheet-text14"/></td>
+        </tr>
+        <tr>
+            <td colspan="2" class="sheet-text14"><input type="text" name="eq1" class="sheet-field100 sheet-text14"/></td>
+            <td colspan="4" class="sheet-text14"><input type="text" name="eqdes1" class="sheet-field200 sheet-text14"/></td>
+            <td colspan="1" class="sheet-text14"><input type="text" name="eqwgt1" class="sheet-field50 sheet-text14"/></td>
+            <td colspan="2" class="sheet-text14"><input type="text" name="eq1" class="sheet-field100 sheet-text14"/></td>
+            <td colspan="4" class="sheet-text14"><input type="text" name="eqdes1" class="sheet-field200 sheet-text14"/></td>
+            <td colspan="1" class="sheet-text14"><input type="text" name="eqwgt1" class="sheet-field50 sheet-text14"/></td>
+        </tr>
+        <tr>
+            <td colspan="2" class="sheet-text14"><input type="text" name="eq1" class="sheet-field100 sheet-text14"/></td>
+            <td colspan="4" class="sheet-text14"><input type="text" name="eqdes1" class="sheet-field200 sheet-text14"/></td>
+            <td colspan="1" class="sheet-text14"><input type="text" name="eqwgt1" class="sheet-field50 sheet-text14"/></td>
+            <td colspan="2" class="sheet-text14"><input type="text" name="eq1" class="sheet-field100 sheet-text14"/></td>
+            <td colspan="4" class="sheet-text14"><input type="text" name="eqdes1" class="sheet-field200 sheet-text14"/></td>
+            <td colspan="1" class="sheet-text14"><input type="text" name="eqwgt1" class="sheet-field50 sheet-text14"/></td>
+        </tr>
+    </table>
+
+<!--Weapons & Armour table from game page-->
+    <table class="sheet-table6">
+        <tr class="sheet-title20" bgcolor="#ff0000">
+            <th colspan="8">Weapons & Armour</th>
+        </tr>
+        <tr class="sheet-title16">
+            <td>Weapon</td>
+            <td colspan="2">Name</td>
+            <td>Damage</td>
+            <td>Shots</td>
+            <td>Range</td>
+            <td>Total dmg</td>
+            <td>Weight</td>
+        </tr>
+        <tr>
+            <td class="sheet-text16">Primary</td>
+            <td colspan="2" class="sheet-text14"><input type="text" name="pwwpn" class="sheet-field150 sheet-text14" value="name"/></td>
+            <td class="sheet-text14"><input type="text" name="pwdmg" class="sheet-field75 sheet-text14" value="0 + 00"/></td>
+            <td bgcolor="#ff0000"></td>
+            <td bgcolor="#ff0000"></td>
+            <td class="sheet-text14"><input type="text" name="pwtdmg" class="sheet-field75 sheet-text14" value="0 + 00"/></td>
+            <td class="sheet-text14"><input type="text" name="pwwgt" class="sheet-field75 sheet-text14" value="000 u"/></td>
+        </tr>
+        <tr>
+            <td class="sheet-text16">Secondary</td>
+            <td colspan="2"class="sheet-text14"><input type="text" name="swwpn" class="sheet-field150 sheet-text14" value="name"/></td>
+            <td class="sheet-text14"><input type="text" name="swdmg" class="sheet-field75 sheet-text14" value="0 + 00"/></td>
+            <td bgcolor="#ff0000"></td>
+            <td bgcolor="#ff0000"></td>
+            <td class="sheet-text14"><input type="text" name="swtdmg" class="sheet-field75 sheet-text14" value="0 + 00"/></td>
+            <td class="sheet-text14"><input type="text" name="swwgt" class="sheet-field75 sheet-text14" value="000 u"/></td>
+        </tr>
+        <tr>
+            <td class="sheet-text16">Missile</td>
+            <td colspan="2" class="sheet-text14"><input type="text" name="mwwpn" class="sheet-field150 sheet-text14" value="name"/></td>
+            <td class="sheet-text14"><input type="text" name="mwdmg" class="sheet-field75 sheet-text14" value="0 + 00"/></td>
+            <td class="sheet-text14"><input type="text" name="mwshots" class="sheet-field50 sheet-text14" value="00"/></td>
+            <td class="sheet-text14"><input type="text" name="mwrang" class="sheet-field75 sheet-text14" value="00 sqs"/></td>
+            <td class="sheet-text14"><input type="text" name="mwtdmg" class="sheet-field75 sheet-text14" value="0 + 00"/></td>
+            <td class="sheet-text14"><input type="text" name="mwwgt" class="sheet-field75 sheet-text14" value="000 u"/></td>
+        </tr>
+        <tr>
+            <td class="sheet-text16">Thrown</td>
+            <td colspan="2" class="sheet-text14"><input type="text" name="twwpn" class="sheet-field150 sheet-text14" value="name"/></td>
+            <td class="sheet-text14"><input type="text" name="twdmg" class="sheet-field75 sheet-text14" value="0 + 00"/></td>
+            <td class="sheet-text14"><input type="text" name="twshots" class="sheet-field50 sheet-text14" value="00"/></td>
+            <td class="sheet-text14"><input type="text" name="twrang" class="sheet-field75 sheet-text14" value="00 sqs"/></td>
+            <td class="sheet-text14"><input type="text" name="twtdmg" class="sheet-field75 sheet-text14" value="0 + 00"/></td>
+            <td class="sheet-text14"><input type="text" name="twwgt" class="sheet-field75 sheet-text14" value="000 u"/></td>
+        </tr>
+        <tr>
+            <td class="sheet-text16">Extra</td>
+            <td colspan="2" class="sheet-text14"><input type="text" name="ewwpn" class="sheet-field150 sheet-text14" value="name"/></td>
+            <td class="sheet-text14"><input type="text" name="ewdmg" class="sheet-field75 sheet-text14" value="0 + 00"/></td>
+            <td class="sheet-text14"><input type="text" name="ewshots" class="sheet-field50 sheet-text14" value="00"/></td>
+            <td class="sheet-text14"><input type="text" name="ewrang" class="sheet-field75 sheet-text14" value="00 sqs"/></td>
+            <td class="sheet-text14"><input type="text" name="ewtdmg" class="sheet-field75 sheet-text14" value="0 + 00"/></td>
+            <td class="sheet-text14"><input type="text" name="ewwgt" class="sheet-field75 sheet-text14" value="000 u"/></td>
+        </tr>
+        <tr class="sheet-title16" bgcolor="#ff0000">
+            <td colspan="2">Armour</td>
+            <td>Armour AC</td>
+            <td>Armour wgt</td>
+            <td colspan="2">Shield</td>
+            <td>Shield AC</td>
+            <td>Shield wgt</td>
+        </tr>
+        <tr class="sheet-text14">
+            <td colspan="2"><input type="text" name="armour" class="sheet-field150 sheet-text14" value="name"/></td>
+            <td><input type="text" name="armourac" class="sheet-field25 sheet-text14" value="0"/></td>
+            <td><input type="text" name="armourwgt" class="sheet-field75 sheet-text14" value="000 u"/></td>
+            <td colspan="2"><input type="text" name="shield" class="sheet-field150 sheet-text14" value="name"/></td>
+            <td><input type="text" name="shieldac" class="sheet-field25 sheet-text14" value="0"/></td>
+            <td><input type="text" name="shieldwgt" class="sheet-field75 sheet-text14" value="000 u"/></td>
+        </tr>
+    </table>
+
+<!--Magic items table-->
+    <table class="sheet-table16">
+        <tr class="sheet-title20">
+            <td colspan="12" bgcolor="#0000ff">Magic Items</td>
+        </tr>
+        <tr class="sheet-title16">
+            <td colspan="3">Magic Item</td> <td colspan="1">Weight</td><td colspan="8">Description</td>
+        </tr>
+        <tr class="sheet-text14">
+            <td colspan="3"><input type="text" name="magit1" class="sheet-field175 sheet-text14" value="Item"/></td>
+            <td colspan="1"><input type="text" name="magitwgt1" class="sheet-field50 sheet-text14" value="000 u"/></td>
+            <td colspan="8"><input type="text" name="magitdes1" class="sheet-field500 sheet-text14" value="Hocus Pocus"/></td>
+        </tr>
+        <tr class="sheet-text14">
+            <td colspan="3"><input type="text" name="magit1" class="sheet-field175 sheet-text14" value="Item"/></td>
+            <td colspan="1"><input type="text" name="magitwgt1" class="sheet-field50 sheet-text14" value="000 u"/></td>
+            <td colspan="8"><input type="text" name="magitdes1" class="sheet-field500 sheet-text14" value="Hocus Pocus"/></td>
+        </tr>
+        <tr class="sheet-text14">
+            <td colspan="3"><input type="text" name="magit1" class="sheet-field175 sheet-text14" value="Item"/></td>
+            <td colspan="1"><input type="text" name="magitwgt1" class="sheet-field50 sheet-text14" value="000 u"/></td>
+            <td colspan="8"><input type="text" name="magitdes1" class="sheet-field500 sheet-text14" value="Hocus Pocus"/></td>
+        </tr>
+        <tr class="sheet-text14">
+            <td colspan="3"><input type="text" name="magit1" class="sheet-field175 sheet-text14" value="Item"/></td>
+            <td colspan="1"><input type="text" name="magitwgt1" class="sheet-field50 sheet-text14" value="000 u"/></td>
+            <td colspan="8"><input type="text" name="magitdes1" class="sheet-field500 sheet-text14" value="Hocus Pocus"/></td>
+        </tr>
+        <tr class="sheet-text14">
+            <td colspan="3"><input type="text" name="magit1" class="sheet-field175 sheet-text14" value="Item"/></td>
+            <td colspan="1"><input type="text" name="magitwgt1" class="sheet-field50 sheet-text14" value="000 u"/></td>
+            <td colspan="8"><input type="text" name="magitdes1" class="sheet-field500 sheet-text14" value="Hocus Pocus"/></td>
+        </tr>
+        <tr class="sheet-text14">
+            <td colspan="3"><input type="text" name="magit1" class="sheet-field175 sheet-text14" value="Item"/></td>
+            <td colspan="1"><input type="text" name="magitwgt1" class="sheet-field50 sheet-text14" value="000 u"/></td>
+            <td colspan="8"><input type="text" name="magitdes1" class="sheet-field500 sheet-text14" value="Hocus Pocus"/></td>
+        </tr>
+        <tr class="sheet-text14">
+            <td colspan="3"><input type="text" name="magit1" class="sheet-field175 sheet-text14" value="Item"/></td>
+            <td colspan="1"><input type="text" name="magitwgt1" class="sheet-field50 sheet-text14" value="000 u"/></td>
+            <td colspan="8"><input type="text" name="magitdes1" class="sheet-field500 sheet-text14" value="Hocus Pocus"/></td>
+        </tr>
+        <tr class="sheet-text14">
+            <td colspan="3"><input type="text" name="magit1" class="sheet-field175 sheet-text14" value="Item"/></td>
+            <td colspan="1"><input type="text" name="magitwgt1" class="sheet-field50 sheet-text14" value="000 u"/></td>
+            <td colspan="8"><input type="text" name="magitdes1" class="sheet-field500 sheet-text14" value="Hocus Pocus"/></td>
+        </tr>
+        <tr class="sheet-text14">
+            <td colspan="3"><input type="text" name="magit1" class="sheet-field175 sheet-text14" value="Item"/></td>
+            <td colspan="1"><input type="text" name="magitwgt1" class="sheet-field50 sheet-text14" value="000 u"/></td>
+            <td colspan="8"><input type="text" name="magitdes1" class="sheet-field500 sheet-text14" value="Hocus Pocus"/></td>
+        </tr>
+        <tr class="sheet-text14">
+            <td colspan="3"><input type="text" name="magit1" class="sheet-field175 sheet-text14" value="Item"/></td>
+            <td colspan="1"><input type="text" name="magitwgt1" class="sheet-field50 sheet-text14" value="000 u"/></td>
+            <td colspan="8"><input type="text" name="magitdes1" class="sheet-field500 sheet-text14" value="Hocus Pocus"/></td>
+        </tr>
+        <tr class="sheet-text14">
+            <td colspan="3"><input type="text" name="magit1" class="sheet-field175 sheet-text14" value="Item"/></td>
+            <td colspan="1"><input type="text" name="magitwgt1" class="sheet-field50 sheet-text14" value="000 u"/></td>
+            <td colspan="8"><input type="text" name="magitdes1" class="sheet-field500 sheet-text14" value="Hocus Pocus"/></td>
+        </tr>
+        <tr class="sheet-text14">
+            <td colspan="3"><input type="text" name="magit1" class="sheet-field175 sheet-text14" value="Item"/></td>
+            <td colspan="1"><input type="text" name="magitwgt1" class="sheet-field50 sheet-text14" value="000 u"/></td>
+            <td colspan="8"><input type="text" name="magitdes1" class="sheet-field500 sheet-text14" value="Hocus Pocus"/></td>
+        </tr>
+    </table><br>
+    
+<!--Notes-->
+<p style="text-align:left; margin-left:7px; font-family:ariel,helvetica,sans-serif; color:black; font-size:16px; font-weight:bold;">Notes:</p>
+<textarea class="sheet-note10">Equipment notes</textarea>
+<!--copyright-->
+<p class="sheet-copyright6">Official version <b>Avatar Descension </b>October 23, 2016 * <i>Avatar Descension Association </i>&#169; 2016 Barry Aulis</p>    
+</div>
+
+<!--Seventh tab Realm page-->
+<div class="sheet-tab-content sheet-tab7" style="height: 1800px;">
+
+    <h1 class="sheet-title32">Realm Page</h1><br>
+    <h3 class="sheet-title24">Clan / Guild / Realm: <input type="text" name="adname" class="sheet-field500 sheet-text14" value="Avatar Descension"/></h3>
+    <br><h3 class="sheet-title24">Type: <input type="text" name="adtype" class="sheet-field200 sheet-text14" value="Clan / Guild / Realm"/>
+    Established: <input type="text" name="adest" class="sheet-field100 sheet-text14" value="0000 GT"/></h3>
+    <br><h3 class="sheet-title24">Government: <input type="text" name="adgovn" class="sheet-field500 sheet-text14" value="Monarchy - male preference succession"/></h3>
+
+<!--Realm attributes table-->
+  <table class="sheet-table17">
+      <tr class="sheet-title20">
+          <td colspan="6" bgcolor="#800080">Realm Attributes</td>
+      </tr>
+      <tr class="sheet-title16">
+          <td bgcolor="#800080"></td><td>Rulership</td><td>Governance</td><td>Leadership</td><td>Diplomacy</td><td>Guild</td>
+      </tr>
+      <tr>
+          <td class="sheet-text16">Score</td>
+          <td class="sheet-text14"><input type="text" name="rule" class="sheet-field75 sheet-text14" value="10"/></td>
+          <td class="sheet-text14"><input type="text" name="goven" class="sheet-field75 sheet-text14" value="10"/></td>
+          <td class="sheet-text14"><input type="text" name="lead" class="sheet-field75 sheet-text14" value="10"/></td>
+          <td class="sheet-text14"><input type="text" name="dipl" class="sheet-field75 sheet-text14" value="10"/></td>
+          <td class="sheet-text14"><input type="text" name="guild" class="sheet-field75 sheet-text14" value="10"/></td>
+      </tr>
+      <tr>
+          <td class="sheet-text16">Effect</td>
+          <td class="sheet-text14"><input type="text" name="ruleeff" class="sheet-field125 sheet-text14" value="X 1 Power"/></td>
+          <td class="sheet-text14"><input type="text" name="goveneff" class="sheet-field125 sheet-text14" value="X 1 Gold"/></td>
+          <td class="sheet-text14"><input type="text" name="leadeff" class="sheet-field125 sheet-text14" value="+ 0 battleroll"/></td>
+          <td class="sheet-text14"><input type="text" name="dipleff" class="sheet-field100 sheet-text14" value="00 dipl pts"/></td>
+          <td class="sheet-text14"><input type="text" name="guildeff" class="sheet-field100 sheet-text14" value="+ 0"/></td>
+      </tr>
+       <tr>
+          <td class="sheet-text16">Base Income</td>
+          <td class="sheet-text14"><input type="text" name="powerbase" class="sheet-field100 sheet-text14" value="00 power"/></td>
+          <td class="sheet-text14"><input type="text" name="goldbase" class="sheet-field100 sheet-text14" value="00 gold"/></td>
+          <td bgcolor="#800080"></td>
+          <td bgcolor="#800080"></td>
+          <td bgcolor="#800080"></td>
+      </tr>
+      <tr>
+          <td class="sheet-text16">Hereditary factor</td>
+          <td class="sheet-text14"><input type="text" name="rulehf" class="sheet-field75 sheet-text14" value="+ 0"/></td>
+          <td class="sheet-text14"><input type="text" name="govenhf" class="sheet-field75 sheet-text14" value="+ 0"/></td>
+          <td class="sheet-text14"><input type="text" name="leadhf" class="sheet-field75 sheet-text14" value="+ 0"/></td>
+          <td class="sheet-text14"><input type="text" name="diplhf" class="sheet-field75 sheet-text14" value="+ 0"/></td>
+          <td class="sheet-text14"><input type="text" name="guildhf" class="sheet-field75 sheet-text14" value="+ 0"/></td>
+      </tr>
+  </table><br>
+
+<!--Notes-->
+<p style="text-align:left; margin-left:7px; font-family:ariel,helvetica,sans-serif; color:black; font-size:16px; font-weight:bold;">Notes:</p>
+<textarea class="sheet-note75">Realm notes</textarea>
+<!--copyright-->
+<p class="sheet-copyright7">Official version <b>Avatar Descension </b>October 23, 2016 * <i>Avatar Descension Association </i>&#169; 2016 Barry Aulis</p>
+</div>
+
+<!--Eighth tab History page-->
+<div class="sheet-tab-content sheet-tab8" style="height: 1800px;">
+
+    <h1 class="sheet-title32">History Page</h1><br><br>
+    <h3 class="sheet-title24 txtbrdhist">Character History</h3><br>
+      <h4 style="text-align:left; margin-left:20px; font-family:ariel,helvetica,sans-serif; color:black; font-size:14px; font-weight:bold;">Game turn
+      &emsp;&emsp;Event</h4>
+    <textarea class="sheet-note150">&emsp;GT 157&emsp;&emsp;The events of this year</textarea>
+<!--copyright-->
+<p class="sheet-copyright8">Official version <b>Avatar Descension </b>October 23, 2016 * <i>Avatar Descension Association </i>&#169; 2016 Barry Aulis</p>
+</div>

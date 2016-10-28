@@ -70,7 +70,7 @@ div.sheet-tab-content {border:7px solid #cd7f32; margin:10px 0px 5px; padding:0p
 .sheet-copyright1 {font-family:"times new roman",times,serif; color:black; font-size:14px; text-align:center; margin-top:100px;}
 .sheet-copyright2 {font-family:"times new roman",times,serif; color:black; font-size:14px; text-align:center; margin-top:155px;}
 .sheet-copyright3 {font-family:"times new roman",times,serif; color:black; font-size:14px; text-align:center; margin-top:55px;}
-.sheet-copyright4 {font-family:"times new roman",times,serif; color:black; font-size:14px; text-align:center; margin-top:55px;}
+.sheet-copyright4 {font-family:"times new roman",times,serif; color:black; font-size:14px; text-align:center; margin-top:25px;}
 .sheet-copyright5 {font-family:"times new roman",times,serif; color:black; font-size:14px; text-align:center; margin-top:525px;}
 .sheet-copyright6 {font-family:"times new roman",times,serif; color:black; font-size:14px; text-align:center; margin-top:40px;}
 .sheet-copyright7 {font-family:"times new roman",times,serif; color:black; font-size:14px; text-align:center; margin-top:470px;}
@@ -126,6 +126,10 @@ th, td {width: 3%; height: 30px; border: 2px solid black;}
 /*Ki'ar disciplines table*/
 .sheet-table12 {margin-top: 25px; margin-left: 100px; width: 75%; border: 3px solid black; table-layout: fixed;}
 th, td {width: 15%; height: 30px; border: 2px solid black;}
+
+/*Ki'ar power points table*/
+.sheet-table12a {margin-top: 25px; margin-left: 15px; width: 96%; border: 3px solid black; table-layout: fixed;}
+th, td {width: 16%; height: 30px; border: 2px solid black;}
 
 /*Abilities table*/
 .sheet-table13 {margin-top: 25px; margin-left: 10px; width: 98%; border: 3px solid black; table-layout: fixed;}

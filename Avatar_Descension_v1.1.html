@@ -65,7 +65,7 @@ alt="history" style="width: 74px; height: 20px;">
         <tr>
             <td class="sheet-text16">Strength</td>
             <td class="sheet-text14"><input type="text" name="attr_str" class="sheet-field50 sheet-text14" value="10"/></td>
-            <td class="sheet-text14"><input type="text" name="attr_strmod" class="sheet-field50 sheet-text14" value="+ 0"/></td>
+            <td class="sheet-text14"><input type="text" name="attr_strmod" class="sheet-field50 sheet-text14" value="+ 0"/></td> 
         </tr>
         <tr>
             <td class="sheet-text16">Dexterity</td> 
@@ -125,7 +125,7 @@ alt="history" style="width: 74px; height: 20px;">
         </tr>
         <tr>
             <td class="sheet-text16">Magic level</td>
-            <td class="sheet-text14"><input type="text" name="attr_ml" class="sheet-field50 sheet-text14" value="None"/></td>
+            <td class="sheet-text14"><input type="text" name="attr_ml" class="sheet-field75 sheet-text14" value="None"/></td>
         </tr>
         <tr>
             <td class="sheet-text16">Mana</td>
@@ -133,7 +133,7 @@ alt="history" style="width: 74px; height: 20px;">
         </tr>
         <tr>
             <td class="sheet-text16">Ki level</td>
-            <td class="sheet-text14"><input type="text" name="attr_kl" class="sheet-field50 sheet-text14" value="None"/></td>
+            <td class="sheet-text14"><input type="text" name="attr_kl" class="sheet-field75 sheet-text14" value="None"/></td>
         </tr>
         <tr>
             <td class="sheet-text16">Ki</td>
@@ -507,7 +507,7 @@ alt="history" style="width: 74px; height: 20px;">
         </tr>
         <tr>
             <td class="sheet-text14"><input type="text" name="attr_mage" class="sheet-field100 sheet-text14" value="Mage"/></td>
-            <td class="sheet-text14"><input type="text" name="attr_ml" class="sheet-field50 sheet-text14" value="none"/></td>
+            <td class="sheet-text14"><input type="text" name="attr_ml" class="sheet-field75 sheet-text14" value="none"/></td>
             <td class="sheet-text14"><input type="text" name="attr_mana" class="sheet-field50 sheet-text14" value="none"/></td>
             <td class="sheet-text14"><input type="text" name="attr_manalevel" class="sheet-field50 sheet-text14" value="+ 0"/></td>
             <td class="sheet-text14"><input type="text" name="attr_manahf" class="sheet-field50 sheet-text14" value="+ 0"/></td>
@@ -867,9 +867,9 @@ alt="history" style="width: 74px; height: 20px;">
             <td>Ki level</td><td>Ki</td><td colspan="2">Percentage Ki/level</td><td>Ki max</td><td>Regeneration</td>
         </tr>
         <tr>
-            <td class="sheet-text14"><input type="text" name="attr_kl" class="sheet-field50 sheet-text14" value="none"/></td>
+            <td class="sheet-text14"><input type="text" name="attr_kl" class="sheet-field75 sheet-text14" value="none"/></td>
             <td class="sheet-text14"><input type="text" name="attr_ki" class="sheet-field50 sheet-text14" value="none"/></td>
-            <td colspan="2 "class="sheet-text14"><input type="text" name="attr_kilevel" class="sheet-field75 sheet-text14" value="0% + 0"/></td>
+            <td colspan="2 "class="sheet-text14"><input type="text" name="attr_kilevel" class="sheet-field100 sheet-text14" value="0% + 0"/></td>
             <td class="sheet-text14"><input type="text" name="attr_kimax" class="sheet-field50 sheet-text14" value="00"/>
             <td class="sheet-text14"><input type="text" name="attr_kiregen" class="sheet-field50 sheet-text14" value="0"/></td>
         </tr>
@@ -897,6 +897,17 @@ alt="history" style="width: 74px; height: 20px;">
             <td class="sheet-text14"><input type="text" name="attr_dis12" class="sheet-field100 sheet-text14" value="Level eight"/></td>
             <td class="sheet-text14"><input type="text" name="attr_dis13" class="sheet-field100 sheet-text14" value="Level nine"/></td>
             <td class="sheet-text14"><input type="text" name="attr_dis14" class="sheet-field100 sheet-text14" value="Level ten"/></td>
+        </tr>
+    </table>
+    
+    <table class="sheet-table12a">
+        <tr class="sheet-title16">
+            <td bgcolor="#0066ff">Power points</td>
+            <td class="sheet-text14"><input type="text" name="attr_ppts" class="sheet-field75 sheet-text14" value="00"/></td>
+            <td bgcolor="#0066ff">Points/level</td>
+            <td class="sheet-text14"><input type="text" name="attr_pptslevel" class="sheet-field75 sheet-text14" value="+ 00"/></td>
+            <td bgcolor="#0066ff">Known powers</td>
+            <td class="sheet-text14"><input type="text" name="attr_kwnpowers" class="sheet-field75 sheet-text14" value="00"/></td>
         </tr>
     </table>
 
@@ -1205,16 +1216,7 @@ alt="history" style="width: 74px; height: 20px;">
           <td colspan="7" class="sheet-text12"><input type="text" name="attr_pwraoe29" class="sheet-field150 sheet-text12"/></td>
           <td colspan="2" class="sheet-text12"><input type="text" name="attr_pwrsr29" class="sheet-field25 sheet-text12" value="Y"/></td>
         </tr>
-        <tr>
-          <td colspan="2" class="sheet-text12"><input type="text" name="attr_pwrl30" class="sheet-field25 sheet-text12"/></td>
-          <td colspan="7" class="sheet-text12"><input type="text" name="attr_pwr30" class="sheet-field150 sheet-text12"/></td>
-          <td colspan="5" class="sheet-text12"><input type="text" name="attr_pwrdis30" class="sheet-field100 sheet-text12"/></td>
-          <td colspan="2" class="sheet-text12"><input type="text" name="attr_pwrki30" class="sheet-field25 sheet-text12"/></td>
-          <td colspan="4" class="sheet-text12"><input type="text" name="attr_pwrr30" class="sheet-field75 sheet-text12"/></td>
-          <td colspan="4" class="sheet-text12"><input type="text" name="attr_pwrd30" class="sheet-field75 sheet-text12"/></td>
-          <td colspan="7" class="sheet-text12"><input type="text" name="attr_pwraoe30" class="sheet-field150 sheet-text12"/></td>
-          <td colspan="2" class="sheet-text12"><input type="text" name="attr_pwrsr30" class="sheet-field25 sheet-text12" value="Y"/></td>
-        </tr>
+
     </table><br>
 
 <!--Notes-->
@@ -1340,6 +1342,7 @@ alt="history" style="width: 74px; height: 20px;">
             <td colspan="2"><input type="text" name="attr_abilsrc21" class="sheet-field100 sheet-text14"/></td>
             <td colspan="9"><input type="text" name="attr_abileff21" class="sheet-field500 sheet-text14"/></td>
          </tr>
+
      </table><br>
 
 <!--Notes-->
